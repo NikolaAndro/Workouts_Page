@@ -6,7 +6,7 @@ foods:
       carbs: 38.3
       fat: 25.1
       calories: 412
-      description: "One slice of wheat bread, 96g of peanut butter, 20g of jelly."
+      description: "One slice of wheat bread,\n 96g of peanut butter,\n 20g of jelly."
       ingredients:
         - name: "Wheat Bread"
           unit: "slice"
@@ -96,7 +96,7 @@ foods:
       carbs: 46
       fat: 5
       calories: 312
-      description: "A delicious parfait made with non-fat Greek yogurt, mixed berries, and granola."
+      description: "A delicious parfait made with non-fat Greek yogurt,\nmixed berries,\ngranola."
       ingredients:
         - name: "Non-fat Oikos Protein Yogurt"
           amount: 245
@@ -161,7 +161,7 @@ foods:
       protein: 72.47
       carbs: 89
       fat: 14.43
-      description: "112 (raw) g of penne pasta, 250 (raw) g of chicken breasts, and 100 g of Classico Alfredo Sauce."
+      description: "112 (raw) g of penne pasta,\n250 (raw) g of chicken breasts,\n100 g of Classico Alfredo Sauce."
       ingredients:
         - name: "Penne Pasta"
           amount: 112
@@ -191,7 +191,7 @@ foods:
       carbs: 70
       fat: 94
       calories: 1695
-      description: "100 g of kale, 100 g of spring mix, 400 g of chicken breasts, 50 g of hickory smoked bacon, 2 boiled eggs, 50 g of avocado, 100 g of cherry tomatoes, 50 g of beets, 25 g of sunflower seeds, 25 g of pumpkin seeds, 50 g of croutons, and 62 g of Italian dressing."
+      description: "100 g of kale,\n100 g of spring mix,\n400 g of chicken breasts,\n50 g of hickory smoked bacon,\n2 boiled eggs,\n50 g of avocado,\n100 g of cherry tomatoes,\n50 g of beets,\n25 g of sunflower seeds,\n25 g of pumpkin seeds,\n50 g of croutons,\nand 62 g of Italian dressing."
       ingredients:
         - name: "Kale"
           amount: 100
@@ -375,7 +375,7 @@ foods:
       fat: 29
       calories: 731
       recipeLink: "../../recipes/main_meals/2025-03-29-spaghetti-and-meatballs"
-      description: "113 g of ground 'meatloaf mix', 14.2 g of dried Italian breadcrumbs, 8.3 g of Parmigiano-Reggiano cheese, 151 g of marinara sauce, 75.5 g of spaghetti, 1/6 large egg, 0.5 tbsp fresh basil, 0.5 tbsp fresh parsley, 1/6 tsp dried oregano, 1/8 tsp salt, 1/24 tsp black pepper, 1/3 clove garlic, and 10 ml water."
+      description: "113 g of ground 'meatloaf mix',\n14.2 g of dried Italian breadcrumbs,\n8.3 g of Parmigiano-Reggiano cheese,\n151 g of marinara sauce,\n75.5 g of spaghetti,\n1/6 large egg,\n0.5 tbsp fresh basil,\n0.5 tbsp fresh parsley,\n1/6 tsp dried oregano,\n1/8 tsp salt,\n1/24 tsp black pepper,\n1/3 clove garlic,\n10 ml water."
       ingredients:
       - name: "Ground Meatloaf Mix"
         amount: 113
@@ -456,7 +456,7 @@ foods:
       carbs: 10
       fat: 15
       calories: 250
-      description: "125 (raw) g of minced beef, 25 g of onion, 1.25 g of garlic, 12.5 g of egg, 30 g of breadcrumbs, 3.75 ml of ketchup, 3.75 ml of Worcestershire sauce, 0.625 g of black pepper, 1.5 g of salt, and 11.25 ml of olive oil."
+      description: "125 (raw) g of minced beef,\n25 g of onion,\n1.25 g of garlic,\n12.5 g of egg,\n30 g of breadcrumbs,\n3.75 ml of ketchup,\n3.75 ml of Worcestershire sauce,\n0.625 g of black pepper,\n1.5 g of salt,\n11.25 ml of olive oil."
       ingredients:
       - name: "Minced Beef"
         amount: 125
@@ -624,7 +624,7 @@ foods:
       carbs: 48
       fat: 28
       calories: 605
-      description: "A high-calorie milk shake with vanilla protein, banana, walnuts, chia seeds, almonds, and whole milk."
+      description: "A high-calorie milk shake with vanilla protein,\nbanana,\nwalnuts,\nchia seeds,\nalmonds,\nwhole milk."
       ingredients:
         - name: "Vanilla Protein"
           amount: 31

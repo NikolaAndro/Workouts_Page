@@ -181,9 +181,10 @@
 }
 
 .modal-content h2{
-    font-size: 24px;
+    font-size: 35px !important;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .close {
@@ -320,7 +321,7 @@
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     #recipeLink {
-        font-size: 19px; /* Slightly smaller font size for phones */
+        font-size: 27px !important; /* Slightly smaller font size for phones */
         padding: 12px 20px; /* Adjust padding for smaller screens */
         width: 100%; /* Make the button full-width */
         box-sizing: border-box; /* Ensure padding doesn't exceed width */
@@ -349,5 +350,22 @@
     #mealDescriptionImage {
         max-width: 100%; /* Ensure the image takes full width on very small screens */
         margin-top: 10px; /* Adjust margin for compact screens */
+    }
+}
+
+/* General styling for the meal description text */
+#mealDescription {
+    font-size: 18px; /* Default font size for larger screens */
+    line-height: 1.6; /* Improve readability with proper line spacing */
+    color: #333; /* Dark gray text color for better contrast */
+    margin: 15px 0; /* Add vertical spacing */
+    text-align: justify; /* Justify text for a clean look */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    #mealDescription {
+        font-size: 25px; /* Increase font size for phones */
+        line-height: 1.4; /* Adjust line spacing for better readability */
     }
 }
