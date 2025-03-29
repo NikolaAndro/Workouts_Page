@@ -322,7 +322,7 @@
     #recipeLink {
         font-size: 19px; /* Slightly smaller font size for phones */
         padding: 12px 20px; /* Adjust padding for smaller screens */
-        width: 500%; /* Make the button full-width */
+        width: 100%; /* Make the button full-width */
         box-sizing: border-box; /* Ensure padding doesn't exceed width */
     }
 }
