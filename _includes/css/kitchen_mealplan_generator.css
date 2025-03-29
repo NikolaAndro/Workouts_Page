@@ -293,3 +293,61 @@
 #quantityModal button {
     font-size: 18px; /* Ensure font size is at least 16px to prevent zoom */
 }
+
+/* General styling for the "View Recipe" button */
+#recipeLink {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px; /* Slightly larger font size */
+    font-weight: bold;
+    padding: 15px 30px; /* Increased padding for a thicker appearance */
+    background-color: #fed136; /* Gold background color */
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    width: 70%; /* Set a fixed width for better alignment */
+}
+
+/* Hover effect for the button */
+#recipeLink:hover {
+    background-color: #f0a500; /* Darker gold on hover */
+    color: #fff; /* White text on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    #recipeLink {
+        font-size: 19px; /* Slightly smaller font size for phones */
+        padding: 12px 20px; /* Adjust padding for smaller screens */
+        width: 500%; /* Make the button full-width */
+        box-sizing: border-box; /* Ensure padding doesn't exceed width */
+    }
+}
+
+/* General styling for the meal description image */
+#mealDescriptionImage {
+    display: block; /* Ensure the image is displayed */
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the image with some margin */
+    border-radius: 8px; /* Add rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    #mealDescriptionImage {
+        max-width: 90%; /* Reduce width slightly for smaller screens */
+        margin-top: 15px; /* Add more margin for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    #mealDescriptionImage {
+        max-width: 100%; /* Ensure the image takes full width on very small screens */
+        margin-top: 10px; /* Adjust margin for compact screens */
+    }
+}

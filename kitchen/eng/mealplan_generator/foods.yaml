@@ -368,6 +368,54 @@ foods:
         - name: "Peas"
           amount: 160
           unit: "g"
+    - name: "Spaghetti and Meatballs"
+      image: "../food_images/spaghetti_and_meatballs.png"
+      protein: 37
+      carbs: 78
+      fat: 29
+      calories: 731
+      recipeLink: "../../recipes/main_meals/2025-03-29-spaghetti-and-meatballs"
+      description: "113 g of ground 'meatloaf mix', 14.2 g of dried Italian breadcrumbs, 8.3 g of Parmigiano-Reggiano cheese, 151 g of marinara sauce, 75.5 g of spaghetti, 1/6 large egg, 0.5 tbsp fresh basil, 0.5 tbsp fresh parsley, 1/6 tsp dried oregano, 1/8 tsp salt, 1/24 tsp black pepper, 1/3 clove garlic, and 10 ml water."
+      ingredients:
+      - name: "Ground Meatloaf Mix"
+        amount: 113
+        unit: "g"
+      - name: "Dried Italian Breadcrumbs"
+        amount: 14.2
+        unit: "g"
+      - name: "Parmigiano-Reggiano Cheese"
+        amount: 8.3
+        unit: "g"
+      - name: "Marinara Sauce"
+        amount: 151
+        unit: "g"
+      - name: "Spaghetti"
+        amount: 75.5
+        unit: "g"
+      - name: "Egg"
+        amount: 1/6
+        unit: "large"
+      - name: "Fresh Basil"
+        amount: 0.5
+        unit: "tbsp"
+      - name: "Fresh Parsley"
+        amount: 0.5
+        unit: "tbsp"
+      - name: "Dried Oregano"
+        amount: 1/6
+        unit: "tsp"
+      - name: "Salt"
+        amount: 1/8
+        unit: "tsp"
+      - name: "Black Pepper"
+        amount: 1/24
+        unit: "tsp"
+      - name: "Garlic"
+        amount: 1/3
+        unit: "clove"
+      - name: "Water"
+        amount: 10
+        unit: "ml"
   dinner:
     - name: "White Rice"
       image: "../food_images/rice.png"
@@ -440,7 +488,6 @@ foods:
       - name: "Olive Oil"
         amount: 11.25
         unit: "ml"
-
     - name: "salmon"
       image: "../food_images/salmon.jpg"
       protein: 50
@@ -663,3 +710,14 @@ foods:
       - name: "Ritz Crackers"
         amount: 5
         unit: "crackers"
+    - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
+      image: "../food_images/lindt_chocolate70.png"
+      protein: 0.66
+      carbs: 4.3
+      fat: 4.66
+      calories: 63.33
+      description: "One square (10g) of Lindt Excellence 70% Cocoa Dark Chocolate."
+      ingredients:
+      - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
+        amount: 10
+        unit: "g"

@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 mealOptions.appendChild(foodDiv);
     
                 foodDiv.querySelector('.description-button').addEventListener('click', function() {
-                    showModal(this.dataset.name, this.dataset.description, this.dataset.descriptionImage);
+                    showModal(this.dataset.name, this.dataset.description, item.image, item.recipeLink);
                 });
     
                 foodDiv.querySelector('img').addEventListener('click', function() {
@@ -139,7 +139,24 @@ document.addEventListener("DOMContentLoaded", function() {
         selectedSnacks.appendChild(fragmentSnacks);
     }
 
-    function showModal(name, description, descriptionImage) {
+    /**
+     * Displays a modal with meal details including name, description, image, and a recipe link.
+     *
+     * @param {string} name - The name of the meal to display in the modal. This is passed from the `data-name` attribute of the clicked button.
+     * @param {string} description - The description of the meal, which can include HTML tags like <br>. This is passed from the `data-description` attribute of the clicked button.
+     * @param {string} [descriptionImage] - The URL of the image to display in the modal. This is passed from the `image` property of the `item` object.
+     * @param {string} [recipeLink] - The URL of the recipe link. This is passed from the `recipeLink` property of the `item` object, or it defaults to undefined if not provided.
+     *
+     * This function performs the following steps:
+     * 1. Retrieves the modal element and updates its content with the provided meal details.
+     * 2. Updates the meal name and description in the modal.
+     * 3. Displays the meal image if a valid URL is provided; otherwise, hides the image section.
+     * 4. Configures the recipe link if provided; otherwise, hides the link section.
+     * 5. Displays the modal by setting its display style to 'block'.
+     *
+     * Note: If the element with ID 'recipeLink' is not found, an error is logged to the console.
+     */
+    function showModal(name, description, descriptionImage, recipeLink) {
         const modal = document.getElementById('mealModal');
         document.getElementById('mealName').textContent = name;
         document.getElementById('mealDescription').innerHTML = description; // Use innerHTML to render <br> tags
@@ -151,7 +168,16 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             descriptionImageElement.style.display = 'none';
         }
-    
+
+        const recipeLinkContainer = document.getElementById('recipeLinkButtonContainer');
+        const recipeLinkElement = document.getElementById('recipeLink');
+        if (recipeLink) {
+            recipeLinkElement.href = recipeLink; // Set the recipe link URL
+            recipeLinkContainer.style.display = 'block'; // Show the recipe link button
+        } else {
+            recipeLinkContainer.style.display = 'none'; // Hide the recipe link button if no link is provided
+        }
+                
         modal.style.display = 'block';
     }
 
