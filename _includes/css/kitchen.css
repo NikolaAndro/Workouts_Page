@@ -250,11 +250,11 @@ select::-ms-expand {
 	border: 1px solid #fed136;
 	color: #000;
 	text-decoration: none;
-	padding: 10px 25px;
+	padding: 10px 15px;
 	display: inline-flex;
   	align-items: flex-end;
 	margin: 0;
-	font-size: 1.1em;
+	font-size: 1.4em;
 }
 
 .kitchen-button:hover {

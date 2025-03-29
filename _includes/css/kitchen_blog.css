@@ -74,7 +74,30 @@
 					color: #ff4e4e;
 					padding-right: 0.5em;
 				}
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .kitchen-post .recipe-contents ul li,
+	.kitchen-post .recipe-contents ol li{
+		font-size: 25px;
+	}
 
+	.kitchen-post .recipe-contents .ingredients,
+	.recipe-contents .directions{
+		width: 100% !important;
+		padding: 0 4% 4% !important;
+ 	}
+
+	.kitchen-post .recipe-contents .ingredients p,
+	.recipe-contents .directions p{
+		font-size: 30px !important;
+ 	}
+	
+	.kitchen-post .recipe-contents .ingredients h2{
+		text-align: center;
+		font-size: 3.5em !important;
+	}
+
+}
 		
 .kitchen-post	.recipe-contents ol {
 			padding: 0;
