@@ -6,7 +6,10 @@ foods:
       carbs: 38.3
       fat: 25.1
       calories: 412
-      description: "One slice of wheat bread,\n 96g of peanut butter,\n 20g of jelly."
+      description: |
+        - One slice of wheat bread
+        - 96g of peanut butter
+        - 20g of jelly
       ingredients:
         - name: "Wheat Bread"
           unit: "slice"
@@ -38,7 +41,11 @@ foods:
       carbs: 100.6
       fat: 26.1
       calories: 670
-      description: "80 g of Quaker Rolled Oats,\n33 g of Peanut Butter,\n118 g of Banana,\nand 120 ml of whole milk."
+      description: |
+        - 80 g of Quaker Rolled Oats
+        - 33 g of Peanut Butter
+        - 118 g of Banana
+        - 120 ml of whole milk
       ingredients:
         - name: "Quaker Rolled Oats"
           amount: 80
@@ -96,7 +103,11 @@ foods:
       carbs: 46
       fat: 5
       calories: 312
-      description: "A delicious parfait made with non-fat Greek yogurt,\nmixed berries,\ngranola."
+      description: |
+        A delicious parfait made with:
+        - 245g of Non-fat Oikos Protein Yogurt
+        - 75g of Mixed Berries
+        - 30g of Granola
       ingredients:
         - name: "Non-fat Oikos Protein Yogurt"
           amount: 245
@@ -147,7 +158,9 @@ foods:
       carbs: 24
       fat: 3
       calories: 178
-      description: "50 g of eggwhite and 1.25 servings of Chicken Noodle Bear Creek."
+      description: |
+        - 50 g of eggwhite
+        - 1.25 servings of Chicken Noodle Bear Creek
       ingredients:
         - name: "Eggwhite"
           amount: 50
@@ -161,7 +174,10 @@ foods:
       protein: 72.47
       carbs: 89
       fat: 14.43
-      description: "112 (raw) g of penne pasta,\n250 (raw) g of chicken breasts,\n100 g of Classico Alfredo Sauce."
+      description: |
+        - 112 (raw) g of penne pasta
+        - 250 (raw) g of chicken breasts
+        - 100 g of Classico Alfredo Sauce
       ingredients:
         - name: "Penne Pasta"
           amount: 112
@@ -191,7 +207,19 @@ foods:
       carbs: 70
       fat: 94
       calories: 1695
-      description: "100 g of kale,\n100 g of spring mix,\n400 g of chicken breasts,\n50 g of hickory smoked bacon,\n2 boiled eggs,\n50 g of avocado,\n100 g of cherry tomatoes,\n50 g of beets,\n25 g of sunflower seeds,\n25 g of pumpkin seeds,\n50 g of croutons,\nand 62 g of Italian dressing."
+      description: |
+        - 100 g of kale
+        - 100 g of spring mix
+        - 400 g of chicken breasts
+        - 50 g of hickory smoked bacon
+        - 2 boiled eggs
+        - 50 g of avocado
+        - 100 g of cherry tomatoes
+        - 50 g of beets
+        - 25 g of sunflower seeds
+        - 25 g of pumpkin seeds
+        - 50 g of croutons
+        - 62 g of Italian dressing
       ingredients:
         - name: "Kale"
           amount: 100
@@ -235,7 +263,13 @@ foods:
       carbs: 47.5
       fat: 47
       calories: 774
-      description: "A delicious Chicken Avocado Melt sandwich."
+      description: |
+        - 1 Ciabatta Roll
+        - 120g Chicken Breasts
+        - 20g Smoked Gouda Cheese
+        - 25g Avocado
+        - 30g Roasted Red Bell Pepper
+        - 50g Chipotle Aioli Dip & Spread
       ingredients:
         - name: "Ciabatta Roll"
           amount: 1
@@ -375,7 +409,20 @@ foods:
       fat: 29
       calories: 731
       recipeLink: "../../recipes/main_meals/2025-03-29-spaghetti-and-meatballs"
-      description: "113 g of ground 'meatloaf mix',\n14.2 g of dried Italian breadcrumbs,\n8.3 g of Parmigiano-Reggiano cheese,\n151 g of marinara sauce,\n75.5 g of spaghetti,\n1/6 large egg,\n0.5 tbsp fresh basil,\n0.5 tbsp fresh parsley,\n1/6 tsp dried oregano,\n1/8 tsp salt,\n1/24 tsp black pepper,\n1/3 clove garlic,\n10 ml water."
+      description: |
+        - 113 g of ground 'meatloaf mix'
+        - 14.2 g of dried Italian breadcrumbs
+        - 8.3 g of Parmigiano-Reggiano cheese
+        - 151 g of marinara sauce
+        - 75.5 g of spaghetti
+        - 1/6 large egg
+        - 0.5 tbsp fresh basil
+        - 0.5 tbsp fresh parsley
+        - 1/6 tsp dried oregano
+        - 1/8 tsp salt
+        - 1/24 tsp black pepper
+        - 1/3 clove garlic
+        - 10 ml water
       ingredients:
       - name: "Ground Meatloaf Mix"
         amount: 113
@@ -456,7 +503,17 @@ foods:
       carbs: 10
       fat: 15
       calories: 250
-      description: "125 (raw) g of minced beef,\n25 g of onion,\n1.25 g of garlic,\n12.5 g of egg,\n30 g of breadcrumbs,\n3.75 ml of ketchup,\n3.75 ml of Worcestershire sauce,\n0.625 g of black pepper,\n1.5 g of salt,\n11.25 ml of olive oil."
+      description: |
+        - 125 (raw) g of minced beef
+        - 25 g of onion
+        - 1.25 g of garlic
+        - 12.5 g of egg
+        - 30 g of breadcrumbs
+        - 3.75 ml of ketchup
+        - 3.75 ml of Worcestershire sauce
+        - 0.625 g of black pepper
+        - 1.5 g of salt
+        - 11.25 ml of olive oil
       ingredients:
       - name: "Minced Beef"
         amount: 125
@@ -604,13 +661,26 @@ foods:
         - name: "Gold Standard Whey Protein"
           amount: 30
           unit: "g"
+    - name: "Whey Protein - Ascent 100%"
+      image: "../food_images/ascent_whey_vanilla_bean.jpg"
+      protein: 25
+      carbs: 2
+      fat: 1
+      calories: 120
+      description: "One serving (30g or 1 scoop) of Ascent 100% Whey"
+      ingredients:
+        - name: "Ascent 100% Whey"
+          amount: 30
+          unit: "g"
     - name: "Cottage Cheese Bowl with Walnuts"
       image: "../food_images/cottage_cheese.png"
       protein: 33
       carbs: 12
       fat: 25
       calories: 402
-      description: "A nutritious bowl of low-fat cottage cheese topped with walnuts."
+      description: |
+        - 480g Low-fat Cottage Cheese
+        - 30g Walnuts
       ingredients:
         - name: "Low-fat Cottage Cheese"
           amount: 480
@@ -624,7 +694,13 @@ foods:
       carbs: 48
       fat: 28
       calories: 605
-      description: "A high-calorie milk shake with vanilla protein,\nbanana,\nwalnuts,\nchia seeds,\nalmonds,\nwhole milk."
+      description: |
+        - 31g Vanilla Protein
+        - 100g Banana
+        - 10g Walnuts
+        - 8g Chia Seeds
+        - 15g Almonds
+        - 300g Whole Milk
       ingredients:
         - name: "Vanilla Protein"
           amount: 31
@@ -661,7 +737,7 @@ foods:
       carbs: 10
       fat: 0
       calories: 28
-      description: "A smaller serving of about 80 grams of mandarin oranges."
+      description: "About 80 grams of mandarin oranges."
       ingredients:
       - name: "Mandarin Oranges"
         amount: 80
@@ -721,3 +797,46 @@ foods:
       - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
         amount: 10
         unit: "g"
+    - name: "Protein Pancakes"
+      image: "../../images/protein_pancakes.jpeg"
+      protein: 49
+      carbs: 64
+      fat: 3
+      calories: 459
+      description: |
+        - 30g Whey protein powder
+        - 40g oats
+        - 165g egg whites
+        - 0.6g cinnamon
+        - 101g banana
+        - 50g blueberries
+      ingredients:
+        - name: "Whey Protein Powder"
+          amount: 30
+          unit: "g"
+        - name: "Oats"
+          amount: 40
+          unit: "g"
+        - name: "Egg Whites"
+          amount: 165
+          unit: "g"
+        - name: "Cinnamon"
+          amount: 0.6
+          unit: "g"
+        - name: "Banana"
+          amount: 101
+          unit: "g"
+        - name: "Blueberries"
+          amount: 50
+          unit: "g"
+    - name: "Casein - Gold Standard"
+      image: "../food_images/casein_gold_standard.jpg"
+      protein: 24
+      carbs: 4
+      fat: 1
+      calories: 120
+      description: "One serving (34g or 1 scoop) of Casein Gold Standard."
+      ingredients:
+        - name: "Casein Gold Standard"
+          amount: 34
+          unit: "g"
