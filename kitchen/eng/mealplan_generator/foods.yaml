@@ -1,5 +1,93 @@
 foods:
   breakfast:
+    - name: "Cream of Rice"
+      image: "../food_images/cream_of_rice.jpg"
+      protein: 2
+      carbs: 35
+      fat: 0
+      calories: 150
+      description: "One serving (45g) of Cream of Rice."
+      ingredients:
+        - name: "Cream of Rice"
+          amount: 45
+          unit: "g"
+    - name: "Milk 2%"
+      image: "../food_images/milk_2.jpg"
+      protein: 8
+      carbs: 12
+      fat: 5
+      calories: 120
+      description: "One cup (240 ml) of 2% milk."
+      ingredients:
+        - name: "2% Milk"
+          amount: 240
+          unit: "ml"
+    - name: "Egg Whites"
+      image: "../food_images/egg_whites.jpg"
+      protein: 3.6
+      carbs: 0.2
+      fat: 0.1
+      calories: 17
+      description: "33g of eggwhites."
+      ingredients:
+        - name: "Egg Whites"
+          amount: 33
+          unit: "g"
+    - name: "Avocado"
+      image: "../food_images/avocado.jpg"
+      protein: 4
+      carbs: 17
+      fat: 29
+      calories: 322
+      description: "One medium avocado (150g)."
+      ingredients:
+        - name: "Avocado"
+          amount: 150
+          unit: "g"
+    - name: "Ezekiel bread"
+      image: "../food_images/ezekiel_bread.jpg"
+      protein: 5
+      carbs: 15
+      fat: 0.5
+      calories: 80
+      description: "One slice of Ezekiel bread."
+      ingredients:
+        - name: "Ezekiel Bread"
+          amount: 1
+          unit: "slice"
+    - name: "Spinach"
+      image: "../food_images/spinach.jpg"
+      protein: 5.3
+      carbs: 6.8
+      fat: 0.5
+      calories: 41
+      description: "180g of raw spinach."
+      ingredients:
+        - name: "Spinach"
+          amount: 180
+          unit: "g"
+    - name: "Olive Oil"
+      image: "../food_images/olive_oil.jpg"
+      protein: 0
+      carbs: 0
+      fat: 14
+      calories: 120
+      description: "One tablespoon (15ml) of olive oil."
+      ingredients:
+        - name: "Olive Oil"
+          amount: 15
+          unit: "ml"
+    - name: "Broccoli"
+      image: "../food_images/broccoli.jpg"
+      protein: 2.4
+      carbs: 7.2
+      fat: 0.4
+      calories: 35
+      description: "100g of raw broccoli."
+      ingredients:
+        - name: "Broccoli"
+          amount: 100
+          unit: "g"
     - name: "Peanut Butter Jelly"
       image: "../food_images/pbj.png"
       protein: 13.6
@@ -291,14 +379,14 @@ foods:
           unit: "g"
     - name: "White Rice"
       image: "../food_images/rice.png"
-      protein: 2.6
-      carbs: 23
-      fat: 0.9
-      calories: 111
-      description: "One cup (158g) of cooked white rice."
+      protein: 2.8
+      carbs: 29
+      fat: 0.3
+      calories: 130
+      description: "One cup (100g) of cooked white rice."
       ingredients:
         - name: "White Rice"
-          amount: 158
+          amount: 100
           unit: "g"
     - name: "Shrimp"
       image: "../food_images/shrimp.jpg"
@@ -463,6 +551,50 @@ foods:
       - name: "Water"
         amount: 10
         unit: "ml"
+    - name: "Ground Beef 93% lean"
+      image: "../food_images/ground_beef_93.jpg"
+      protein: 20.7
+      carbs: 0
+      fat: 7.2
+      calories: 153
+      description: "A serving of 100g of ground beef (93% lean)."
+      ingredients:
+        - name: "Ground Beef"
+          amount: 100
+          unit: "g"
+    - name: "Sweet Potatoes"
+      image: "../food_images/sweet_potatoes.jpg"
+      protein: 2
+      carbs: 21
+      fat: 0.15
+      calories: 90
+      description: "A serving of 100g of sweet potatoes."
+      ingredients:
+        - name: "Sweet Potatoes"
+          amount: 100
+          unit: "g"
+    - name: "Mushrooms"
+      image: "../food_images/mushrooms.jpg"
+      protein: 2.2
+      carbs: 5.2
+      fat: 0.5
+      calories: 29
+      description: "A serving of 100g of mushrooms."
+      ingredients:
+        - name: "Mushrooms"
+          amount: 100
+          unit: "g"
+    - name: "Bell Peppers"
+      image: "../food_images/bell_peppers.jpg"
+      protein: 0.9
+      carbs: 6.8
+      fat: 0.2
+      calories: 28
+      description: "A serving of 100g of bell peppers."
+      ingredients:
+        - name: "Bell Peppers"
+          amount: 100
+          unit: "g"
   dinner:
     - name: "White Rice"
       image: "../food_images/rice.png"
@@ -595,6 +727,28 @@ foods:
           fat: 2.5
        
   snacks:
+    - name: "Almonds"
+      image: "../food_images/almonds.jpg"
+      protein: 2.1
+      carbs: 2.1
+      fat: 5.2
+      calories: 59.4
+      description: "10g of almonds."
+      ingredients:
+        - name: "Almonds"
+          amount: 10
+          unit: "g"
+    - name: "Walnuts"
+      image: "../food_images/walnuts.jpg"
+      protein: 1.6
+      carbs: 1.4
+      fat: 6.5
+      calories: 65
+      description: "10g of walnuts."
+      ingredients:
+        - name: "Walnuts"
+          amount: 10
+          unit: "g"
     - name: "Protein Granola - Nature Valley"
       image: "../food_images/protein-granola.png"
       protein: 13
@@ -608,14 +762,14 @@ foods:
           unit: "g"
     - name: "Oikos Triple Zero Greek Yogurt"
       image: "../food_images/yogurt.jpeg"
-      protein: 17
-      carbs: 8
+      protein: 10
+      carbs: 4.7
       fat: 0
-      calories: 100
-      description: "One container (170g) of Oikos Triple Zero Greek Yogurt."
+      calories: 58.8
+      description: "100g of Oikos Triple Zero Greek Yogurt."
       ingredients:
         - name: "Oikos Triple Zero Greek Yogurt"
-          amount: 170
+          amount: 100
           unit: "g"
     - name: "Banana"
       image: "../food_images/banana.jpg"
@@ -645,7 +799,7 @@ foods:
       carbs: 5.7
       fat: 0
       calories: 21
-      description: "One teaspoon of natural pure honey."
+      description: "One teaspoon (7g) of natural pure honey."
       ingredients:
         - name: "Natural Pure Honey"
           amount: 1
@@ -746,13 +900,13 @@ foods:
       image: "../food_images/fish_oil.jpg"
       protein: 0
       carbs: 0
-      fat: 1
-      calories: 10
-      description: "One softgel of fish oil."
+      fat: 5
+      calories: 45
+      description: "One teaspoon (5ml) of fish oil."
       ingredients:
       - name: "Fish Oil"
         amount: 1
-        unit: "softgel"
+        unit: "teaspoon"
     - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
       image: "../food_images/ice_cream_dirt_cake.jpeg"
       protein: 16
@@ -840,3 +994,26 @@ foods:
         - name: "Casein Gold Standard"
           amount: 34
           unit: "g"
+    - name: "Quaker Rice Cakes"
+      image: "../food_images/rice_cakes.jpg"
+      protein: 1
+      carbs: 12
+      fat: 1
+      calories: 60
+      description: "One rice cake."
+      ingredients:
+        - name: "Quaker Rice Cakes"
+          amount: 1
+          unit: "cake"
+    - name: "Pineapple"
+      image: "../food_images/pineapple.jpg"
+      protein: 0.3
+      carbs: 6.6
+      fat: 0.1
+      calories: 25
+      description: "50g of pineapple."
+      ingredients:
+        - name: "Pineapple"
+          amount: 50
+          unit: "g"
+    
