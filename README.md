@@ -1,6 +1,6 @@
 # ToDo List
 
-## Nikola
+## ToDO
 
 - [X] The kitchen button needs href on whole surface
 - [ ] Terms Of Use - Ask GPT?
@@ -14,9 +14,6 @@
 - [ ] Put kitchen in the taskbar
 - [ ] Change the color of welcome to busy life
 - [ ] Enter lumberjack workout full version
-
-## Tamara
-
 - [ ] Svi treninzi treba da budu u tabelama
 - [ ] Napraviti instagram stranicu sa ovim logoom
 - [ ] Smisliti plan na kojim drustvenim mrezama bi ovo moglo da se prosiri
