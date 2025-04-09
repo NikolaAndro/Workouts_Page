@@ -34,11 +34,31 @@ document.addEventListener("DOMContentLoaded", function() {
         updateAggregatedValuesGoals();
     });
 
+
+    /**
+     * Populates the DOM with food options based on the provided food categories and items.
+     * Each food item is displayed with its image, description, macros, and a button to view more details.
+     * Clicking on the image triggers a quantity selection modal, while clicking the description button shows a detailed modal.
+     * 
+     * @param {Object} foods - An object where keys are food category names and values are arrays of food items.
+     * @param {Array} foods[].ingredients - The list of ingredients for the food item.
+     * @param {string} foods[].description - A textual description of the food item, supports newline characters.
+     * @param {string} foods[].image - The URL of the food item's image.
+     * @param {string} [foods[].description_image] - An optional URL for an additional description image.
+     * @param {string} foods[].name - The name of the food item.
+     * @param {number} foods[].protein - The amount of protein in grams.
+     * @param {number} foods[].carbs - The amount of carbohydrates in grams.
+     * @param {number} foods[].fat - The amount of fat in grams.
+     * @param {number} foods[].calories - The total calories of the food item.
+     * @param {string} [foods[].recipeLink] - An optional URL to the recipe for the food item.
+     * 
+     * @throws Will log an error if an element with the expected ID for a food category is not found in the DOM.
+     */
     function displayFoods(foods) {
-        for (const [meal, items] of Object.entries(foods)) {
-            const mealOptions = document.getElementById(`${meal}-options`);
+        for (const [food_category, items] of Object.entries(foods)) {
+            const mealOptions = document.getElementById(`${food_category}-options`);
             if (!mealOptions) {
-                console.error(`Element with ID ${meal}-options not found.`);
+                console.error(`Element with ID ${food_category}-options not found.`);
                 continue;
             }
             items.forEach(item => {
@@ -257,11 +277,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.getElementById('quantitySubmit').onclick = addFood;
 
-        quantityInput.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                addFood();
-            }
-        });
+        // FIXME: When clcking enter, it runs addFood twice or for all previous foods so total calories goes super high
+        // quantityInput.addEventListener('keydown', function(event) {
+        //     if (event.key === 'Enter') {
+        //         addFood();
+        //     }
+        // });
     }
 
     function updateAggregatedValues(protein, carbs, fat, calories) {

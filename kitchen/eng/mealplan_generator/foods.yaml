@@ -1,37 +1,48 @@
 foods:
-  breakfast:
-    - name: "Cream of Rice"
-      image: "../food_images/cream_of_rice.jpg"
-      protein: 2
-      carbs: 35
-      fat: 0
-      calories: 150
-      description: "One serving (45g) of Cream of Rice."
+  produce:
+    - name: "Spinach"
+      image: "../food_images/spinach.jpg"
+      protein: 5.3
+      carbs: 6.8
+      fat: 0.5
+      calories: 41
+      description: "180g of raw spinach."
       ingredients:
-        - name: "Cream of Rice"
-          amount: 45
+        - name: "Spinach"
+          amount: 180
           unit: "g"
-    - name: "Milk 2%"
-      image: "../food_images/milk_2.jpg"
-      protein: 8
-      carbs: 12
-      fat: 5
-      calories: 120
-      description: "One cup (240 ml) of 2% milk."
+    - name: "Broccoli"
+      image: "../food_images/broccoli.jpg"
+      protein: 2.4
+      carbs: 7.2
+      fat: 0.4
+      calories: 35
+      description: "100g of raw broccoli."
       ingredients:
-        - name: "2% Milk"
-          amount: 240
-          unit: "ml"
-    - name: "Egg Whites"
-      image: "../food_images/egg_whites.jpg"
-      protein: 3.6
-      carbs: 0.2
+        - name: "Broccoli"
+          amount: 100
+          unit: "g"
+    - name: "Banana"
+      image: "../food_images/banana.jpg"
+      protein: 1.3
+      carbs: 27
+      fat: 0.4
+      calories: 105
+      description: "One medium banana."
+      ingredients:
+        - name: "Banana"
+          amount: 1
+          unit: "medium"
+    - name: "Pineapple"
+      image: "../food_images/pineapple.jpg"
+      protein: 0.3
+      carbs: 6.6
       fat: 0.1
-      calories: 17
-      description: "33g of eggwhites."
+      calories: 25
+      description: "50g of pineapple."
       ingredients:
-        - name: "Egg Whites"
-          amount: 33
+        - name: "Pineapple"
+          amount: 50
           unit: "g"
     - name: "Avocado"
       image: "../food_images/avocado.jpg"
@@ -44,6 +55,272 @@ foods:
         - name: "Avocado"
           amount: 150
           unit: "g"
+    - name: "Beets"
+      image: "../food_images/beets.jpg"
+      protein: 1.7
+      carbs: 10
+      fat: 0.2
+      calories: 44
+      description: "A serving of 100g of beets."
+      ingredients:
+        - name: "Beets"
+          amount: 100
+          unit: "g"
+    - name: "Green Beans"
+      image: "../food_images/green_beans.jpg"
+      protein: 2.4
+      carbs: 9.9
+      fat: 0.4
+      calories: 44
+      description: "A serving of 125g of green beans."
+      ingredients:
+        - name: "Green Beans"
+          amount: 125
+          unit: "g"
+    - name: "Sweet Peas"
+      image: "../food_images/sweet_peas.jpeg"
+      protein: 8.6
+      carbs: 25
+      fat: 0.4
+      calories: 134
+      description: "A serving of 160g of peas."
+      ingredients:
+        - name: "Peas"
+          amount: 160
+          unit: "g"
+    - name: "Sweet Potatoes"
+      image: "../food_images/sweet_potatoes.jpg"
+      protein: 2
+      carbs: 21
+      fat: 0.15
+      calories: 90
+      description: "A serving of 100g of sweet potatoes."
+      ingredients:
+        - name: "Sweet Potatoes"
+          amount: 100
+          unit: "g"
+    - name: "Mushrooms"
+      image: "../food_images/mushrooms.jpg"
+      protein: 2.2
+      carbs: 5.2
+      fat: 0.5
+      calories: 29
+      description: "A serving of 100g of mushrooms."
+      ingredients:
+        - name: "Mushrooms"
+          amount: 100
+          unit: "g"
+    - name: "Bell Peppers"
+      image: "../food_images/bell_peppers.jpg"
+      protein: 0.9
+      carbs: 6.8
+      fat: 0.2
+      calories: 28
+      description: "A serving of 100g of bell peppers."
+      ingredients:
+        - name: "Bell Peppers"
+          amount: 100
+          unit: "g"
+    - name: "Apple"
+      image: "../food_images/apple.jpg"
+      protein: 0.5
+      carbs: 25
+      fat: 0.5
+      calories: 95
+      description: "A medium-sized apple."
+      ingredients:
+        - name: "Apple"
+          amount: 1
+          unit: "medium"
+    - name: "Mandarin Oranges"
+      image: "../food_images/mandarin_oranges.png"
+      protein: 0.6
+      carbs: 10
+      fat: 0
+      calories: 28
+      description: "About 80 grams of mandarin oranges."
+      ingredients:
+        - name: "Mandarin Oranges"
+          amount: 80
+          unit: "g"
+
+  dairy_and_eggs:
+    - name: "Milk 2%"
+      image: "../food_images/milk_2.jpg"
+      protein: 8
+      carbs: 12
+      fat: 5
+      calories: 120
+      description: "One cup (240 ml) of 2% milk."
+      ingredients:
+        - name: "2% Milk"
+          amount: 240
+          unit: "ml"
+    - name: "Oikos Triple Zero Greek Yogurt"
+      image: "../food_images/yogurt.jpeg"
+      protein: 10
+      carbs: 4.7
+      fat: 0
+      calories: 58.8
+      description: "100g of Oikos Triple Zero Greek Yogurt."
+      ingredients:
+        - name: "Oikos Triple Zero Greek Yogurt"
+          amount: 100
+          unit: "g"
+    - name: "Whole Milk"
+      image: "../food_images/milk.jpg"
+      protein: 8
+      carbs: 13
+      fat: 8
+      calories: 150
+      description: "One cup (240 ml) of whole milk."
+      ingredients:
+        - name: "Whole Milk"
+          amount: 240
+          unit: "ml"
+          calories: 150
+          protein: 8
+          carbs: 13
+          fat: 8
+    - name: "Egg Whites"
+      image: "../food_images/egg_whites.jpg"
+      protein: 3.6
+      carbs: 0.2
+      fat: 0.1
+      calories: 17
+      description: "33g of eggwhites."
+      ingredients:
+        - name: "Egg Whites"
+          amount: 33
+          unit: "g"
+    - name: "Egg"
+      image: "../food_images/egg.jpg"
+      protein: 6.3
+      carbs: 0.4
+      fat: 4.8
+      calories: 72
+      description: "One large egg (50g)."
+      ingredients:
+        - name: "Egg"
+          amount: 1
+          unit: "large (50g)"
+
+  meat_and_seafood:
+    - name: "Chicken Breast"
+      image: "../food_images/chicken_breast.png"
+      protein: 43
+      carbs: 0
+      fat: 5
+      calories: 227
+      description: "One raw chicken breast (189g)."
+      ingredients:
+        - name: "Chicken Breast"
+          amount: 189
+          unit: "g"
+    - name: "Ground Beef 93% lean"
+      image: "../food_images/ground_beef_93.jpg"
+      protein: 20.7
+      carbs: 0
+      fat: 7.2
+      calories: 153
+      description: "A serving of 100g of ground beef (93% lean)."
+      ingredients:
+        - name: "Ground Beef"
+          amount: 100
+          unit: "g"
+    - name: "Salmon"
+      image: "../food_images/salmon.jpg"
+      protein: 50
+      carbs: 0
+      fat: 28
+      calories: 468
+      description: "A serving of 227g of salmon."
+      ingredients:
+        - name: "Salmon"
+          amount: 227
+          unit: "g"
+    - name: "Shrimp"
+      image: "../food_images/shrimp.jpg"
+      protein: 1.1
+      carbs: 0.1
+      fat: 0.1
+      calories: 6
+      description: "One shrimp (5g)."
+      ingredients:
+        - name: "Shrimp"
+          amount: 1
+          unit: "shrimp (5g)"
+    - name: "Top Round Beef"
+      image: "../food_images/beef_top_round.jpeg"
+      protein: 26
+      carbs: 0
+      fat: 7.7
+      calories: 173
+      description: "A serving of 85g of top round beef."
+      description_image: "../food_images/beef_explanation.png"
+      ingredients:
+        - name: "Top Round Beef"
+          amount: 85
+          unit: "g"
+    - name: "Flank Steak"
+      image: "../food_images/flank_steak.jpeg"
+      protein: 24
+      carbs: 0
+      fat: 7
+      calories: 163
+      description: "A serving of 85g of flank steak."
+      description_image: "../food_images/flank_steak_explanation.png"
+      ingredients:
+        - name: "Flank Steak"
+          amount: 85
+          unit: "g"
+    - name: "Sirlion Steak"
+      image: "../food_images/sirloin_steak.jpeg"
+      protein: 23
+      carbs: 0
+      fat: 12
+      calories: 207
+      description: "A serving of 85g of sirloin steak."
+      description_image: "../food_images/sirloin-steak-explanation.jpg"
+      ingredients:
+        - name: "Sirloin Steak"
+          amount: 85
+          unit: "g"
+    - name: "Hickory Smoked Bacon"
+      image: "../food_images/hickory_smoked_bacon.jpg"
+      protein: 12
+      carbs: 0.6
+      fat: 12
+      calories: 161
+      description: "Three slices (35g) of hickory smoked bacon."
+      ingredients:
+        - name: "Hickory Smoked Bacon"
+          amount: 35
+          unit: "g"
+    - name: "Yellowfin Tuna in Olive Oil"
+      image: "../food_images/tuna.jpeg"
+      protein: 29
+      carbs: 0
+      fat: 11
+      calories: 210
+      description: "1 can drained."
+      ingredients:
+        - name: "Tuna"
+          amount: 1
+          unit: "can"
+
+  bakery_and_grains:
+    - name: "Cream of Rice"
+      image: "../food_images/cream_of_rice.jpg"
+      protein: 2
+      carbs: 35
+      fat: 0
+      calories: 150
+      description: "One serving (45g) of Cream of Rice."
+      ingredients:
+        - name: "Cream of Rice"
+          amount: 45
+          unit: "g"
     - name: "Ezekiel bread"
       image: "../food_images/ezekiel_bread.jpg"
       protein: 5
@@ -55,17 +332,52 @@ foods:
         - name: "Ezekiel Bread"
           amount: 1
           unit: "slice"
-    - name: "Spinach"
-      image: "../food_images/spinach.jpg"
-      protein: 5.3
-      carbs: 6.8
-      fat: 0.5
-      calories: 41
-      description: "180g of raw spinach."
+    - name: "White Rice"  # from lunch
+      image: "../food_images/rice.png"
+      protein: 2.8
+      carbs: 29
+      fat: 0.3
+      calories: 130
+      description: "One cup (100g) of cooked white rice."
       ingredients:
-        - name: "Spinach"
-          amount: 180
+        - name: "White Rice"
+          amount: 100
           unit: "g"
+    - name: "Croissant"
+      image: "../food_images/croissant.jpg"
+      protein: 8.2
+      carbs: 46
+      fat: 21
+      calories: 406
+      description: "A buttery and flaky croissant."
+      ingredients:
+        - name: "Croissant"
+          amount: 1
+          unit: "piece"
+    - name: "Cereal - Cinnamon Toast Crunch"
+      image: "../food_images/cinnamon_toast_crunch.jpeg"
+      protein: 2
+      carbs: 33
+      fat: 4
+      calories: 170
+      description: "1 cup (41g) of Cinnamon Toast Crunch cereal."
+      ingredients:
+        - name: "Cinnamon Toast Crunch"
+          amount: 41
+          unit: "g"
+    - name: "Quaker Rice Cakes"
+      image: "../food_images/rice_cakes.jpg"
+      protein: 1
+      carbs: 12
+      fat: 1
+      calories: 60
+      description: "One rice cake."
+      ingredients:
+        - name: "Quaker Rice Cakes"
+          amount: 1
+          unit: "cake"
+
+  pantry_essentials:
     - name: "Olive Oil"
       image: "../food_images/olive_oil.jpg"
       protein: 0
@@ -77,17 +389,30 @@ foods:
         - name: "Olive Oil"
           amount: 15
           unit: "ml"
-    - name: "Broccoli"
-      image: "../food_images/broccoli.jpg"
-      protein: 2.4
-      carbs: 7.2
-      fat: 0.4
-      calories: 35
-      description: "100g of raw broccoli."
+    - name: "Buldak Spicy Hot Chicken Flavor Instant Ramen"
+      image: "../food_images/samyang_ramen.jpeg"
+      protein: 14
+      carbs: 86
+      fat: 18
+      calories: 560
+      description: "One bag of Samyang Spicy Hot Chicken Flavor Instant Ramen."
       ingredients:
-        - name: "Broccoli"
-          amount: 100
-          unit: "g"
+        - name: "Samyang Spicy Hot Chicken Flavor Instant Ramen"
+          amount: 1
+          unit: "bag"
+    - name: "Natural Pure Honey"
+      image: "../food_images/honey.jpg"
+      protein: 0
+      carbs: 5.7
+      fat: 0
+      calories: 21
+      description: "One teaspoon (7g) of natural pure honey."
+      ingredients:
+        - name: "Natural Pure Honey"
+          amount: 1
+          unit: "tsp"
+
+  prepared_foods:
     - name: "Peanut Butter Jelly"
       image: "../food_images/pbj.png"
       protein: 13.6
@@ -108,21 +433,6 @@ foods:
         - name: "Jelly"
           amount: 20
           unit: "g"
-    - name: "Whole Milk"
-      image: "../food_images/milk.jpg"
-      protein: 8
-      carbs: 13
-      fat: 8
-      calories: 150
-      description: "One cup (240 ml) of whole milk."
-      ingredients:
-        - name: "Whole Milk"
-          amount: 240
-          unit: "ml"
-          calories: 150
-          protein: 8
-          carbs: 13
-          fat: 8
     - name: "Peanutbutter Banana Oatmeal"
       image: "../food_images/pb-banana-oats.png"
       protein: 24
@@ -163,28 +473,6 @@ foods:
           protein: 4
           carbs: 6.5
           fat: 4
-    - name: "Egg"
-      image: "../food_images/egg.jpg"
-      protein: 6.3
-      carbs: 0.4
-      fat: 4.8
-      calories: 72
-      description: "One large egg (50g)."
-      ingredients:
-      - name: "Egg"
-        amount: 1
-        unit: "large (50g)"
-    - name: "Hickory Smoked Bacon"
-      image: "../food_images/hickory_smoked_bacon.jpg"
-      protein: 12
-      carbs: 0.6
-      fat: 12
-      calories: 161
-      description: "Three slices (35g) of hickory smoked bacon."
-      ingredients:
-        - name: "Hickory Smoked Bacon"
-          amount: 35
-          unit: "g"
     - name: "Vanilla Yogurt Parfait"
       image: "../food_images/vanilla_yogurt_parfait.png"
       protein: 27
@@ -205,40 +493,6 @@ foods:
           unit: "g"
         - name: "Granola"
           amount: 30
-          unit: "g"
-    - name: "Croissant"
-      image: "../food_images/croissant.jpg"
-      protein: 8.2
-      carbs: 46
-      fat: 21
-      calories: 406
-      description: "A buttery and flaky croissant."
-      ingredients:
-        - name: "Croissant"
-          amount: 1
-          unit: "piece"
-    - name: "Cereal - Cinnamon Toast Crunch"
-      image: "../food_images/cinnamon_toast_crunch.jpeg"
-      protein: 2
-      carbs: 33
-      fat: 4
-      calories: 170
-      description: "1 cup (41g) of Cinnamon Toast Crunch cereal."
-      ingredients:
-        - name: "Cinnamon Toast Crunch"
-          amount: 41
-          unit: "g"
-  lunch:
-    - name: "Chicken Breast"
-      image: "../food_images/chicken_breast.png"
-      protein: 43
-      carbs: 0
-      fat: 5
-      calories: 227
-      description: "One raw chicken breast (189g)."
-      ingredients:
-        - name: "Chicken Breast"
-          amount: 189
           unit: "g"
     - name: "Eggwhite Soup"
       image: "../food_images/eggwhite_soup.jpg"
@@ -288,7 +542,6 @@ foods:
           protein: 1.67
           carbs: 5
           fat: 5.83
-
     - name: "Salad"
       image: "../food_images/salad.png"
       protein: 140
@@ -377,119 +630,6 @@ foods:
         - name: "Chipotle Aioli Dip & Spread"
           amount: 50
           unit: "g"
-    - name: "White Rice"
-      image: "../food_images/rice.png"
-      protein: 2.8
-      carbs: 29
-      fat: 0.3
-      calories: 130
-      description: "One cup (100g) of cooked white rice."
-      ingredients:
-        - name: "White Rice"
-          amount: 100
-          unit: "g"
-    - name: "Shrimp"
-      image: "../food_images/shrimp.jpg"
-      protein: 1.1
-      carbs: 0.1
-      fat: 0.1
-      calories: 6
-      description: "One shrimp (5g)."
-      ingredients:
-        - name: "Shrimp"
-          amount: 1
-          unit: "shrimp (5g)"
-    - name: "Beets"
-      image: "../food_images/beets.jpg"
-      protein: 1.7
-      carbs: 10
-      fat: 0.2
-      calories: 44
-      description: "A serving of 100g of beets."
-      ingredients:
-        - name: "Beets"
-          amount: 100
-          unit: "g"
-    - name: "Top Round Beef"
-      image: "../food_images/beef_top_round.jpeg"
-      protein: 26
-      carbs: 0
-      fat: 7.7
-      calories: 173
-      description: "A serving of 85g of top round beef."
-      description_image: "../food_images/beef_explanation.png"
-      ingredients:
-        - name: "Top Round Beef"
-          amount: 85
-          unit: "g"
-    - name: "Flank Steak"
-      image: "../food_images/flank_steak.jpeg"
-      protein: 24
-      carbs: 0
-      fat: 7
-      calories: 163
-      description: "A serving of 85g of flank steak."
-      description_image: "../food_images/flank_steak_explanation.png"
-      ingredients:
-        - name: "Flank Steak"
-          amount: 85
-          unit: "g"
-    - name: "Sirlion Steak"
-      image: "../food_images/sirloin_steak.jpeg"
-      protein: 23
-      carbs: 0
-      fat: 12
-      calories: 207
-      description: "A serving of 85g of sirloin steak."
-      description_image: "../food_images/sirloin-steak-explanation.jpg"
-      ingredients:
-        - name: "Sirloin Steak"
-          amount: 85
-          unit: "g"
-    - name: "Buldak Spicy Hot Chicken Flavor Instant Ramen"
-      image: "../food_images/samyang_ramen.jpeg"
-      protein: 14
-      carbs: 86
-      fat: 18
-      calories: 560
-      description: "One bag of Samyang Spicy Hot Chicken Flavor Instant Ramen."
-      ingredients:
-        - name: "Samyang Spicy Hot Chicken Flavor Instant Ramen"
-          amount: 1
-          unit: "bag"
-    - name: "salmon"
-      image: "../food_images/salmon.jpg"
-      protein: 50
-      carbs: 0
-      fat: 28
-      calories: 468
-      description: "A serving of 227g of salmon."
-      ingredients:
-        - name: "Salmon"
-          amount: 227
-          unit: "g"
-    - name: "Green Beans"
-      image: "../food_images/green_beans.jpg"
-      protein: 2.4
-      carbs: 9.9
-      fat: 0.4
-      calories: 44
-      description: "A serving of 125g of green beans."
-      ingredients:
-        - name: "Green Beans"
-          amount: 125
-          unit: "g"
-    - name: "Sweet Peas"
-      image: "../food_images/sweet_peas.jpeg"
-      protein: 8.6
-      carbs: 25
-      fat: 0.4
-      calories: 134
-      description: "A serving of 160g of peas."
-      ingredients:
-        - name: "Peas"
-          amount: 160
-          unit: "g"
     - name: "Spaghetti and Meatballs"
       image: "../food_images/spaghetti_and_meatballs.png"
       protein: 37
@@ -512,112 +652,45 @@ foods:
         - 1/3 clove garlic
         - 10 ml water
       ingredients:
-      - name: "Ground Meatloaf Mix"
-        amount: 113
-        unit: "g"
-      - name: "Dried Italian Breadcrumbs"
-        amount: 14.2
-        unit: "g"
-      - name: "Parmigiano-Reggiano Cheese"
-        amount: 8.3
-        unit: "g"
-      - name: "Marinara Sauce"
-        amount: 151
-        unit: "g"
-      - name: "Spaghetti"
-        amount: 75.5
-        unit: "g"
-      - name: "Egg"
-        amount: 1/6
-        unit: "large"
-      - name: "Fresh Basil"
-        amount: 0.5
-        unit: "tbsp"
-      - name: "Fresh Parsley"
-        amount: 0.5
-        unit: "tbsp"
-      - name: "Dried Oregano"
-        amount: 1/6
-        unit: "tsp"
-      - name: "Salt"
-        amount: 1/8
-        unit: "tsp"
-      - name: "Black Pepper"
-        amount: 1/24
-        unit: "tsp"
-      - name: "Garlic"
-        amount: 1/3
-        unit: "clove"
-      - name: "Water"
-        amount: 10
-        unit: "ml"
-    - name: "Ground Beef 93% lean"
-      image: "../food_images/ground_beef_93.jpg"
-      protein: 20.7
-      carbs: 0
-      fat: 7.2
-      calories: 153
-      description: "A serving of 100g of ground beef (93% lean)."
-      ingredients:
-        - name: "Ground Beef"
-          amount: 100
+        - name: "Ground Meatloaf Mix"
+          amount: 113
           unit: "g"
-    - name: "Sweet Potatoes"
-      image: "../food_images/sweet_potatoes.jpg"
-      protein: 2
-      carbs: 21
-      fat: 0.15
-      calories: 90
-      description: "A serving of 100g of sweet potatoes."
-      ingredients:
-        - name: "Sweet Potatoes"
-          amount: 100
+        - name: "Dried Italian Breadcrumbs"
+          amount: 14.2
           unit: "g"
-    - name: "Mushrooms"
-      image: "../food_images/mushrooms.jpg"
-      protein: 2.2
-      carbs: 5.2
-      fat: 0.5
-      calories: 29
-      description: "A serving of 100g of mushrooms."
-      ingredients:
-        - name: "Mushrooms"
-          amount: 100
+        - name: "Parmigiano-Reggiano Cheese"
+          amount: 8.3
           unit: "g"
-    - name: "Bell Peppers"
-      image: "../food_images/bell_peppers.jpg"
-      protein: 0.9
-      carbs: 6.8
-      fat: 0.2
-      calories: 28
-      description: "A serving of 100g of bell peppers."
-      ingredients:
-        - name: "Bell Peppers"
-          amount: 100
+        - name: "Marinara Sauce"
+          amount: 151
           unit: "g"
-  dinner:
-    - name: "White Rice"
-      image: "../food_images/rice.png"
-      protein: 2.6
-      carbs: 23
-      fat: 0.9
-      calories: 111
-      description: "One cup (158g) of cooked white rice."
-      ingredients:
-        - name: "White Rice"
-          amount: 158
+        - name: "Spaghetti"
+          amount: 75.5
           unit: "g"
-    - name: "Beets"
-      image: "../food_images/beets.jpg"
-      protein: 1.7
-      carbs: 10
-      fat: 0.2
-      calories: 44
-      description: "A serving of 100g of beets."
-      ingredients:
-        - name: "Beets"
-          amount: 100
-          unit: "g"
+        - name: "Egg"
+          amount: 1/6
+          unit: "large"
+        - name: "Fresh Basil"
+          amount: 0.5
+          unit: "tbsp"
+        - name: "Fresh Parsley"
+          amount: 0.5
+          unit: "tbsp"
+        - name: "Dried Oregano"
+          amount: 1/6
+          unit: "tsp"
+        - name: "Salt"
+          amount: 1/8
+          unit: "tsp"
+        - name: "Black Pepper"
+          amount: 1/24
+          unit: "tsp"
+        - name: "Garlic"
+          amount: 1/3
+          unit: "clove"
+        - name: "Water"
+          amount: 10
+          unit: "ml"
     - name: "Jack's Pepperoni Pizza"
       image: "../food_images/jacks_pizza.jpg"
       protein: 48.5
@@ -647,69 +720,36 @@ foods:
         - 1.5 g of salt
         - 11.25 ml of olive oil
       ingredients:
-      - name: "Minced Beef"
-        amount: 125
-        unit: "g"
-      - name: "Onion"
-        amount: 25
-        unit: "g"
-      - name: "Garlic"
-        amount: 1.25
-        unit: "g"
-      - name: "Egg"
-        amount: 12.5
-        unit: "g"
-      - name: "Breadcrumbs"
-        amount: 30
-        unit: "g"
-      - name: "Ketchup"
-        amount: 3.75
-        unit: "ml"
-      - name: "Worcestershire Sauce"
-        amount: 3.75
-        unit: "ml"
-      - name: "Black Pepper"
-        amount: 0.625
-        unit: "g"
-      - name: "Salt"
-        amount: 1.5
-        unit: "g"
-      - name: "Olive Oil"
-        amount: 11.25
-        unit: "ml"
-    - name: "salmon"
-      image: "../food_images/salmon.jpg"
-      protein: 50
-      carbs: 0
-      fat: 28
-      calories: 468
-      description: "A serving of 227g of salmon."
-      ingredients:
-        - name: "Salmon"
-          amount: 227
-          unit: "g"
-    - name: "Green Beans"
-      image: "../food_images/green_beans.jpg"
-      protein: 2.4
-      carbs: 9.9
-      fat: 0.4
-      calories: 44
-      description: "A serving of 125g of green beans."
-      ingredients:
-        - name: "Green Beans"
+        - name: "Minced Beef"
           amount: 125
           unit: "g"
-    - name: "Sweet Peas"
-      image: "../food_images/sweet_peas.jpeg"
-      protein: 8.6
-      carbs: 25
-      fat: 0.4
-      calories: 134
-      description: "A serving of 160g of peas."
-      ingredients:
-        - name: "Peas"
-          amount: 160
+        - name: "Onion"
+          amount: 25
           unit: "g"
+        - name: "Garlic"
+          amount: 1.25
+          unit: "g"
+        - name: "Egg"
+          amount: 12.5
+          unit: "g"
+        - name: "Breadcrumbs"
+          amount: 30
+          unit: "g"
+        - name: "Ketchup"
+          amount: 3.75
+          unit: "ml"
+        - name: "Worcestershire Sauce"
+          amount: 3.75
+          unit: "ml"
+        - name: "Black Pepper"
+          amount: 0.625
+          unit: "g"
+        - name: "Salt"
+          amount: 1.5
+          unit: "g"
+        - name: "Olive Oil"
+          amount: 11.25
+          unit: "ml"
     - name: "Mashed Potatoes"
       image: "../food_images/mashed_potatoes.jpeg"
       protein: 2
@@ -725,107 +765,6 @@ foods:
           protein: 2
           carbs: 20
           fat: 2.5
-       
-  snacks:
-    - name: "Almonds"
-      image: "../food_images/almonds.jpg"
-      protein: 2.1
-      carbs: 2.1
-      fat: 5.2
-      calories: 59.4
-      description: "10g of almonds."
-      ingredients:
-        - name: "Almonds"
-          amount: 10
-          unit: "g"
-    - name: "Walnuts"
-      image: "../food_images/walnuts.jpg"
-      protein: 1.6
-      carbs: 1.4
-      fat: 6.5
-      calories: 65
-      description: "10g of walnuts."
-      ingredients:
-        - name: "Walnuts"
-          amount: 10
-          unit: "g"
-    - name: "Protein Granola - Nature Valley"
-      image: "../food_images/protein-granola.png"
-      protein: 13
-      carbs: 40
-      fat: 7
-      calories: 210
-      description: "2/3 of a cup (65g) of Nature Valley Protein Granola."
-      ingredients:
-        - name: "Nature Valley Protein Granola"
-          amount: 65
-          unit: "g"
-    - name: "Oikos Triple Zero Greek Yogurt"
-      image: "../food_images/yogurt.jpeg"
-      protein: 10
-      carbs: 4.7
-      fat: 0
-      calories: 58.8
-      description: "100g of Oikos Triple Zero Greek Yogurt."
-      ingredients:
-        - name: "Oikos Triple Zero Greek Yogurt"
-          amount: 100
-          unit: "g"
-    - name: "Banana"
-      image: "../food_images/banana.jpg"
-      protein: 1.3
-      carbs: 27
-      fat: 0.4
-      calories: 105
-      description: "One medium banana."
-      ingredients:
-        - name: "Banana"
-          amount: 1
-          unit: "medium"
-    - name: "R.W. Knudsen Family Just Tart Cherry Juice"
-      image: "../food_images/tart_cherry_juice.jpg"
-      protein: 1
-      carbs: 18
-      fat: 0
-      calories: 72
-      description: "120 ml of R.W. Knudsen Family Just Tart Cherry Juice."
-      ingredients:
-        - name: "R.W. Knudsen Family Just Tart Cherry Juice"
-          amount: 120
-          unit: "ml"
-    - name: "Natural Pure Honey"
-      image: "../food_images/honey.jpg"
-      protein: 0
-      carbs: 5.7
-      fat: 0
-      calories: 21
-      description: "One teaspoon (7g) of natural pure honey."
-      ingredients:
-        - name: "Natural Pure Honey"
-          amount: 1
-          unit: "tsp"
-    - name: "Gold Standard Whey Protein"
-      image: "../food_images/gold_standard_protein.jpg"
-      protein: 24
-      carbs: 3
-      fat: 1
-      calories: 120
-      description: "One scoop (30g) of Gold Standard Whey Protein."
-      ingredients:
-        - name: "Gold Standard Whey Protein"
-          amount: 30
-          unit: "g"
-    - name: "Whey Protein - Ascent 100%"
-      image: "../food_images/ascent_whey_vanilla_bean.jpg"
-      protein: 25
-      carbs: 2
-      fat: 1
-      calories: 120
-      description: "One serving (30g or 1 scoop) of Ascent 100% Whey"
-      ingredients:
-        - name: "Ascent 100% Whey"
-          amount: 30
-          unit: "g"
     - name: "Cottage Cheese Bowl with Walnuts"
       image: "../food_images/cottage_cheese.png"
       protein: 33
@@ -842,115 +781,6 @@ foods:
         - name: "Walnuts"
           amount: 30
           unit: "g"
-    - name: "Milk Shake 1"
-      image: "../food_images/milk_shake_1.png"
-      protein: 41
-      carbs: 48
-      fat: 28
-      calories: 605
-      description: |
-        - 31g Vanilla Protein
-        - 100g Banana
-        - 10g Walnuts
-        - 8g Chia Seeds
-        - 15g Almonds
-        - 300g Whole Milk
-      ingredients:
-        - name: "Vanilla Protein"
-          amount: 31
-          unit: "g"
-        - name: "Banana"
-          amount: 100
-          unit: "g"
-        - name: "Walnuts"
-          amount: 10
-          unit: "g"
-        - name: "Chia Seeds"
-          amount: 8
-          unit: "g"
-        - name: "Almonds"
-          amount: 15
-          unit: "g"
-        - name: "Whole Milk"
-          amount: 300
-          unit: "g"
-    - name: "Apple"
-      image: "../food_images/apple.jpg"
-      protein: 0.5
-      carbs: 25
-      fat: 0.5
-      calories: 95
-      description: "A medium-sized apple."
-      ingredients:
-      - name: "Apple"
-        amount: 1
-        unit: "medium"
-    - name: "Mandarin Oranges"
-      image: "../food_images/mandarin_oranges.png"
-      protein: 0.6
-      carbs: 10
-      fat: 0
-      calories: 28
-      description: "About 80 grams of mandarin oranges."
-      ingredients:
-      - name: "Mandarin Oranges"
-        amount: 80
-        unit: "g"
-    - name: "Fish Oil"
-      image: "../food_images/fish_oil.jpg"
-      protein: 0
-      carbs: 0
-      fat: 5
-      calories: 45
-      description: "One teaspoon (5ml) of fish oil."
-      ingredients:
-      - name: "Fish Oil"
-        amount: 1
-        unit: "teaspoon"
-    - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
-      image: "../food_images/ice_cream_dirt_cake.jpeg"
-      protein: 16
-      carbs: 140
-      fat: 69
-      calories: 1220
-      description: "A pint of Ben & Jerry's Dirt Cake ice cream."
-      ingredients:
-      - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
-        amount: 1
-        unit: "pint"
-    - name: "Yellowfin Tuna in Olive Oil"
-      image: "../food_images/tuna.jpeg"
-      protein: 29
-      carbs: 0
-      fat: 11
-      calories: 210
-      description: "1 can drained."
-      ingredients:
-      - name: "Tuna"
-        amount: 1
-        unit: "can"
-    - name: "Ritz Crackers"
-      image: "../food_images/ritz.jpeg"
-      protein: 0.5
-      carbs: 10
-      fat: 4.5
-      calories: 80
-      description: "Five Ritz crackers."
-      ingredients:
-      - name: "Ritz Crackers"
-        amount: 5
-        unit: "crackers"
-    - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
-      image: "../food_images/lindt_chocolate70.png"
-      protein: 0.66
-      carbs: 4.3
-      fat: 4.66
-      calories: 63.33
-      description: "One square (10g) of Lindt Excellence 70% Cocoa Dark Chocolate."
-      ingredients:
-      - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
-        amount: 10
-        unit: "g"
     - name: "Protein Pancakes"
       image: "../../images/protein_pancakes.jpeg"
       protein: 49
@@ -983,6 +813,153 @@ foods:
         - name: "Blueberries"
           amount: 50
           unit: "g"
+
+  snacks_and_sweets:
+    - name: "Almonds"
+      image: "../food_images/almonds.jpg"
+      protein: 2.1
+      carbs: 2.1
+      fat: 5.2
+      calories: 59.4
+      description: "10g of almonds."
+      ingredients:
+        - name: "Almonds"
+          amount: 10
+          unit: "g"
+    - name: "Protein Granola - Nature Valley"
+      image: "../food_images/protein-granola.png"
+      protein: 13
+      carbs: 40
+      fat: 7
+      calories: 210
+      description: "2/3 of a cup (65g) of Nature Valley Protein Granola."
+      ingredients:
+        - name: "Nature Valley Protein Granola"
+          amount: 65
+          unit: "g"
+    - name: "Walnuts"
+      image: "../food_images/walnuts.jpg"
+      protein: 1.6
+      carbs: 1.4
+      fat: 6.5
+      calories: 65
+      description: "10g of walnuts."
+      ingredients:
+        - name: "Walnuts"
+          amount: 10
+          unit: "g"
+    - name: "Ritz Crackers"
+      image: "../food_images/ritz.jpeg"
+      protein: 0.5
+      carbs: 10
+      fat: 4.5
+      calories: 80
+      description: "Five Ritz crackers."
+      ingredients:
+        - name: "Ritz Crackers"
+          amount: 5
+          unit: "crackers"
+    - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
+      image: "../food_images/lindt_chocolate70.png"
+      protein: 0.66
+      carbs: 4.3
+      fat: 4.66
+      calories: 63.33
+      description: "One square (10g) of Lindt Excellence 70% Cocoa Dark Chocolate."
+      ingredients:
+        - name: "Lindt Excellence 70% Cocoa Dark Chocolate"
+          amount: 10
+          unit: "g"
+    - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
+      image: "../food_images/ice_cream_dirt_cake.jpeg"
+      protein: 16
+      carbs: 140
+      fat: 69
+      calories: 1220
+      description: "A pint of Ben & Jerry's Dirt Cake ice cream."
+      ingredients:
+        - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
+          amount: 1
+          unit: "pint"
+  beverages:
+    - name: "R.W. Knudsen Family Just Tart Cherry Juice"
+      image: "../food_images/tart_cherry_juice.jpg"
+      protein: 1
+      carbs: 18
+      fat: 0
+      calories: 72
+      description: "120 ml of R.W. Knudsen Family Just Tart Cherry Juice."
+      ingredients:
+        - name: "R.W. Knudsen Family Just Tart Cherry Juice"
+          amount: 120
+          unit: "ml"
+    - name: "Milk Shake 1"
+      image: "../food_images/milk_shake_1.png"
+      protein: 41
+      carbs: 48
+      fat: 28
+      calories: 605
+      description: |
+        - 31g Vanilla Protein
+        - 100g Banana
+        - 10g Walnuts
+        - 8g Chia Seeds
+        - 15g Almonds
+        - 300g Whole Milk
+      ingredients:
+        - name: "Vanilla Protein"
+          amount: 31
+          unit: "g"
+        - name: "Banana"
+          amount: 100
+          unit: "g"
+        - name: "Walnuts"
+          amount: 10
+          unit: "g"
+        - name: "Chia Seeds"
+          amount: 8
+          unit: "g"
+        - name: "Almonds"
+          amount: 15
+          unit: "g"
+        - name: "Whole Milk"
+          amount: 300
+          unit: "g"
+
+  supplements:
+    - name: "Gold Standard Whey Protein"
+      image: "../food_images/gold_standard_protein.jpg"
+      protein: 24
+      carbs: 3
+      fat: 1
+      calories: 120
+      description: "One scoop (30g) of Gold Standard Whey Protein."
+      ingredients:
+        - name: "Gold Standard Whey Protein"
+          amount: 30
+          unit: "g"
+    - name: "Whey Protein - Ascent 100% Whey"
+      image: "../food_images/ascent_whey_vanilla_bean.jpg"
+      protein: 25
+      carbs: 2
+      fat: 1
+      calories: 120
+      description: "One serving (30g or 1 scoop) of Ascent 100% Whey"
+      ingredients:
+        - name: "Ascent 100% Whey"
+          amount: 30
+          unit: "g"
+    - name: "Fish Oil"
+      image: "../food_images/fish_oil.jpg"
+      protein: 0
+      carbs: 0
+      fat: 5
+      calories: 45
+      description: "One teaspoon (5ml) of fish oil."
+      ingredients:
+        - name: "Fish Oil"
+          amount: 1
+          unit: "teaspoon"
     - name: "Casein - Gold Standard"
       image: "../food_images/casein_gold_standard.jpg"
       protein: 24
@@ -994,26 +971,3 @@ foods:
         - name: "Casein Gold Standard"
           amount: 34
           unit: "g"
-    - name: "Quaker Rice Cakes"
-      image: "../food_images/rice_cakes.jpg"
-      protein: 1
-      carbs: 12
-      fat: 1
-      calories: 60
-      description: "One rice cake."
-      ingredients:
-        - name: "Quaker Rice Cakes"
-          amount: 1
-          unit: "cake"
-    - name: "Pineapple"
-      image: "../food_images/pineapple.jpg"
-      protein: 0.3
-      carbs: 6.6
-      fat: 0.1
-      calories: 25
-      description: "50g of pineapple."
-      ingredients:
-        - name: "Pineapple"
-          amount: 50
-          unit: "g"
-    
