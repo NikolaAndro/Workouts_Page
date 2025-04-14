@@ -332,6 +332,17 @@ foods:
         - name: "Ezekiel Bread"
           amount: 1
           unit: "slice"
+    - name: "Whole Wheat Bread"
+      image: "../food_images/whole_wheat_bread.jpg"
+      protein: 4
+      carbs: 14
+      fat: 1
+      calories: 81
+      description: "One slice of whole wheat bread."
+      ingredients:
+        - name: "Whole Wheat Bread"
+          amount: 1
+          unit: "slice"
     - name: "White Rice"  # from lunch
       image: "../food_images/rice.png"
       protein: 2.8
@@ -415,20 +426,20 @@ foods:
   prepared_foods:
     - name: "Peanut Butter Jelly"
       image: "../food_images/pbj.png"
-      protein: 13.6
-      carbs: 38.3
-      fat: 25.1
-      calories: 412
+      protein: 13.11
+      carbs: 35.2
+      fat: 17
+      calories: 319
       description: |
         - One slice of wheat bread
-        - 96g of peanut butter
+        - 32g of peanut butter
         - 20g of jelly
       ingredients:
         - name: "Wheat Bread"
           unit: "slice"
           amount: 1
         - name: "Peanut Butter"
-          amount: 96
+          amount: 32
           unit: "g"
         - name: "Jelly"
           amount: 20
@@ -815,6 +826,28 @@ foods:
           unit: "g"
 
   snacks_and_sweets:
+    - name: "Peanut Butter"
+      image: "../food_images/peanut_butter.jpg"
+      protein: 7
+      carbs: 7.7
+      fat: 16
+      calories: 188
+      description: "Two tablespoons (32g) of peanut butter."
+      ingredients:
+        - name: "Peanut Butter"
+          amount: 32
+          unit: "g"
+    - name: "Grape Jelly"
+      image: "../food_images/grape_jelly.jpg"
+      protein: 0
+      carbs: 13.5
+      fat: 0
+      calories: 50
+      description: "One tablespoon (20g) of grape jelly."
+      ingredients:
+        - name: "Grape Jelly"
+          amount: 20
+          unit: "g"
     - name: "Almonds"
       image: "../food_images/almonds.jpg"
       protein: 2.1
