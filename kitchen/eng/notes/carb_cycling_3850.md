@@ -283,12 +283,20 @@ Total Clories: 3125 kcal
 - 15ml olive oil (120 kcal) 
 - 30g avocado (65 kcal)
 
+
+---
+### **Meal 4 (430 kcal)**  
+- **2 scoops whey (50g protein)** (240 kcal)
+- **5g creatine**
+- 30g Dark chocolate (190 kcal)
+  
 ---
 
-### **Meal 4 (~400–450 kcal)**  
+### **Meal 5 (~400–450 kcal)**  
 - 30g casein protein  (120 kcal)
-- 120g Greek yogurt (Oikos Triple Zero or similar)  (141 kcal)
-- 32g protein granola   (105 kcal)
+- 240g Greek yogurt (Oikos Triple Zero or similar)  (141 kcal)
+- 65g protein granola   (105 kcal)
+- 30g wallnuts (195 kcal)
 - Cinnamon + 1g pink salt (electrolytes, flavor)  
 
 ---
@@ -302,9 +310,8 @@ Total Clories: 3125 kcal
 ## Subtractions
 
 - Grain toast (80 kcal)
-- White ricke 65 kcal
+- White rice 65 kcal
 - 1 sweet potatoe 90 kcal
 - 10 g walnuts 65 kcal
 - 100g sautéed bell peppers (28 kcal) 
-- 120g greek yogurt 70.5 kcal
 - 100g broccoli (35 kcal)
