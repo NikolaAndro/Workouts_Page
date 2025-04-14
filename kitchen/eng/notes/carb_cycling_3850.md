@@ -289,6 +289,10 @@ Total Clories: 3125 kcal
 - **2 scoops whey (50g protein)** (240 kcal)
 - **5g creatine**
 - 30g Dark chocolate (190 kcal)
+- 1 slice of wheat bread (81 kcal)
+- 32g peannut butter (188 kcal)
+- 20g grape jelly (50 kcal)
+- 120 ml 2% milk (60 kcal)
   
 ---
 
@@ -296,7 +300,7 @@ Total Clories: 3125 kcal
 - 30g casein protein  (120 kcal)
 - 240g Greek yogurt (Oikos Triple Zero or similar)  (141 kcal)
 - 65g protein granola   (105 kcal)
-- 30g wallnuts (195 kcal)
+- 20g wallnuts (130 kcal)
 - Cinnamon + 1g pink salt (electrolytes, flavor)  
 
 ---
