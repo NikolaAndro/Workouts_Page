@@ -44,3 +44,6 @@ comments_venv/
 .firebaserc
 firebase-debug.log
 firebase.json
+
+
+Gemfile.lock
