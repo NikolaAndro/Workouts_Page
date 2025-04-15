@@ -106,7 +106,7 @@ We’ll still cycle **High / Moderate / Low Carb Days** based on training intens
 
 
 
-## 🏋️‍♂️ **HIGH-CARB DAY (3615 kcal)**  
+## 🏋️‍♂️ **HIGH-CARB DAY (3605 kcal)**  
 > *Use on Pull, Push, Legs Days – Heavy training loads.*
 
 ### **Pre-Workout (321 kcal)**  
@@ -180,9 +180,15 @@ We’ll still cycle **High / Moderate / Low Carb Days** based on training intens
 
 
 
+---
+---
+---
 
 
-## 💪 **MODERATE-CARB DAY (3125 kcal)**  
+
+
+
+## 💪 **MODERATE-CARB DAY (3286.62 kcal)**  
 > *Use for Arms day, Pump sessions, or moderate intensity.*
 
 ### **Pre-Workout (321 kcal)**  
@@ -243,24 +249,29 @@ We’ll still cycle **High / Moderate / Low Carb Days** based on training intens
 - 30g casein protein  (120 kcal)
 - 240g Greek yogurt (Oikos Triple Zero or similar)  (141 kcal)
 - 32g protein granola   (105 kcal)
-- 10g Walnuts (65 kcal)
+- 20g Walnuts (1.0 kcal)
 - Cinnamon + 1g pink salt (electrolytes, flavor)  
 
 ---
 
-## Subtractions:
 
-- Walnuts: 65 kcal
-- 1 Sweet Potato: 90 kcal
-- 3 Squares of Dark Chocolate: 190 kcal
-- 30g of Rice: 40 kcal
-- 32g of Protein Granola: 105 kcal
+Total Clories: 3286.62 kcal
 
-Total Clories: 3125 kcal
+
+
+
+
+
+
+
+
+
 
 ---
+---
+---
 
-## 🛌 **LOW-CARB DAY (~2692 kcal)**  
+## 🛌 **LOW-CARB DAY (~3018 kcal)**  
 > *Use on full rest days or active recovery (light cardio/stretch).*
 
 ### **Meal 1 (710 kcal)**  
@@ -281,6 +292,7 @@ Total Clories: 3125 kcal
 ### **Meal 3 (~500 kcal)**  
 - 200g 93% lean ground beef  (306 kcal)
 - 15ml olive oil (120 kcal) 
+- 100g sautéed bell peppers (28 kcal) 
 - 30g avocado (65 kcal)
 
 
@@ -288,7 +300,7 @@ Total Clories: 3125 kcal
 ### **Meal 4 (430 kcal)**  
 - **2 scoops whey (50g protein)** (240 kcal)
 - **5g creatine**
-- 30g Dark chocolate (190 kcal)
+- 20g Dark chocolate (126.6 kcal)
 - 1 slice of wheat bread (81 kcal)
 - 32g peannut butter (188 kcal)
 - 20g grape jelly (50 kcal)
@@ -310,12 +322,3 @@ Total Clories: 3125 kcal
 - Herbal tea with honey before bed
 
 ---
-
-## Subtractions
-
-- Grain toast (80 kcal)
-- White rice 65 kcal
-- 1 sweet potatoe 90 kcal
-- 10 g walnuts 65 kcal
-- 100g sautéed bell peppers (28 kcal) 
-- 100g broccoli (35 kcal)
