@@ -21,7 +21,7 @@ lang: eng
                     <td width="50">Age</td>
                     <td width="370">
                         <div class="input-row">
-                            <input type="number" name="cage" id="cage" value="25" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');"  inputmode="numeric">
+                            <input type="number" name="cage" id="cage" value="28" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');"  inputmode="numeric">
                             <span style="display: flex; align-items: center; height: 100%;">ages 15 - 80</span>
                         </div>
                     </td>
@@ -48,11 +48,11 @@ lang: eng
                     <td width="370">
                         <div class="input-container">
                             <div class="input-row" style="margin-right: 30px !important;">
-                                <input type="number" name="cheightfeet" id="cheightfeet" value="5" class="inhalf inuifoot" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
+                                <input type="number" name="cheightfeet" id="cheightfeet" value="6" class="inhalf inuifoot" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
                                 <span class="inuifootspan">feet</span>
                             </div>
                             <div class="input-row">
-                                <input type="number" name="cheightinch" id="cheightinch" value="10" class="inhalf inuiinch" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
+                                <input type="number" name="cheightinch" id="cheightinch" value="5" class="inhalf inuiinch" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
                                 <span class="inuiinchspan">inches</span>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ lang: eng
                     <td>Weight</td>
                     <td>
                         <div class="input-row">
-                            <input type="number" name="cpound" id="cpound" value="165" class="infull inuipound" onkeyup="iptfieldCheck(this, 'r', 'pn');" inputmode="numeric">
+                            <input type="number" name="cpound" id="cpound" value="245" class="infull inuipound" onkeyup="iptfieldCheck(this, 'r', 'pn');" inputmode="numeric">
                             <span class="inuipoundspan">pounds</span>
                         </div>
                     </td>
@@ -220,6 +220,11 @@ lang: eng
             <span class="total-calories-label">Total Calories Goal:</span>
             <span id="total-calories" class="total-calories-value">0</span>
         </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
+            <button type="button" id="load-mealplan" class="grocery-button" onclick="openAndLoadMealPlan()">
+                <i class="fa fa-folder-open"></i> Load Meal Plan
+            </button>
+        </div>
     </form>
 
     <!-- Section that displays all meals for breakfast, lunchm dinner, and snacks -->
@@ -328,6 +333,9 @@ lang: eng
         </button>
         <button type="button" id="print-mealplan" class="grocery-button" onclick="printMealPlan()">
             <i class="fas fa-print"></i> Print Meal Plan
+        </button>
+        <button type="button" id="save-mealplan" class="grocery-button" onclick="saveMealPlan()">
+            <i class="fas fa-print"></i> Save Meal Plan
         </button>
     </div>
 

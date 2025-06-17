@@ -93,7 +93,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             });
         }
-        updateFoodOptions();
+        updateFoodOptions();        
+
+        // Set window.foodOptionsRendered = true at the end of displayFoods
+        window.foodOptionsRendered = true;
+        if (window.mealPlanToLoad) {
+            console.log('[displayFoods] Detected mealPlanToLoad, calling loadMealPlan now.');
+            loadMealPlan(window.mealPlanToLoad);
+            window.mealPlanToLoad = null;
+        }
     }
 
     function updateFoodOptions() {
@@ -298,6 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         updateFoodOptions();
     }   
+    window.updateAggregatedValues = updateAggregatedValues;
 
     function updateAggregatedValuesGoals(){
         // Get goal values from input fields
