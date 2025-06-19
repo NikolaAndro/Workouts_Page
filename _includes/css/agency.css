@@ -301,6 +301,8 @@ printing our webpage */
     border-spacing: 2px;
     -webkit-border-horizontal-spacing: ;
     -webkit-border-vertical-spacing: ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 375px){

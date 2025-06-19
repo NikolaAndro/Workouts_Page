@@ -169,7 +169,7 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.modal-content {
+#mealModal .modal-content, #quantityModal .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -180,7 +180,7 @@
     z-index: 1004; /* Ensure the modal content is above the modal background */
 }
 
-.modal-content h2{
+#mealModal .modal-content h2, #quantityModal .modal-content h2 {
     font-size: 35px !important;
     font-weight: bold;
     margin-bottom: 20px;
