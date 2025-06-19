@@ -1565,7 +1565,7 @@ day48_num: Day 48 -
 day48: Saturday (REST)
 day49_num: Day 49 -
 day49: Sunday (REST)
-week7_num: Week 8
+week8_num: Week 8
 day50_num: Day 50 -
 day50: Monday (Back & Abs)
 mon8_exc1: Reverse-grip Lat Pull-down

@@ -54,42 +54,43 @@
                                         <a href="https://www.youtube.com/watch?v=p_uceEh7a2w&t=11s">GYM</a>
                                         <br><br>
                                     </pmusic>
-                        
-                                    <table id="exerciseTable">
-                                        <tbody>
-                                            <tr>
-                                                <th>Exercise</th>
-                                                <th width="12%">Sets</th>
-                                                <th width="12%">Reps</th>
-                                                <th width="17%">Rest Time</th>
-                                                <th width="20%">Notes</th>
-                                            </tr>
-                                            {% for exc_num in (1..17) %}
-                                                {% assign exc = day_exc_prefix | append: exc_num %}
-                                                {% if page[exc] %}
-                                                    <tr>
-                                                        {% assign superset = exc | append: "_superset" %}
-                                                        <td>
-                                                            {% if page[superset] %}
-                                                                <div style="color: red;">
-                                                                    {{ page[superset] }}<br> 
-                                                                </div>
-                                                            {% endif %}
-                                                            {{ page[exc] }}
-                                                        </td>
-                                                        {% assign sets = exc | append: "_sets" %}
-                                                        <td>{{ page[sets] }}</td> 
-                                                        {% assign reps = exc | append: "_reps" %}
-                                                        <td>{{ page[reps] }}</td>
-                                                        {% assign rest = exc | append: "_rest" %}
-                                                        <td>{{ page[rest] }}</td>
-                                                        {% assign notes = exc | append: "_notes" %}
-                                                        <td>{{ page[notes] }}</td>
-                                                    </tr>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </tbody>
-                                    </table>
+                                    <div class="table-responsive">
+                                        <table id="exerciseTable">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Exercise</th>
+                                                    <th width="12%">Sets</th>
+                                                    <th width="12%">Reps</th>
+                                                    <th width="17%">Rest Time</th>
+                                                    <th width="20%">Notes</th>
+                                                </tr>
+                                                {% for exc_num in (1..17) %}
+                                                    {% assign exc = day_exc_prefix | append: exc_num %}
+                                                    {% if page[exc] %}
+                                                        <tr>
+                                                            {% assign superset = exc | append: "_superset" %}
+                                                            <td>
+                                                                {% if page[superset] %}
+                                                                    <div style="color: red;">
+                                                                        {{ page[superset] }}<br> 
+                                                                    </div>
+                                                                {% endif %}
+                                                                {{ page[exc] }}
+                                                            </td>
+                                                            {% assign sets = exc | append: "_sets" %}
+                                                            <td>{{ page[sets] }}</td> 
+                                                            {% assign reps = exc | append: "_reps" %}
+                                                            <td>{{ page[reps] }}</td>
+                                                            {% assign rest = exc | append: "_rest" %}
+                                                            <td>{{ page[rest] }}</td>
+                                                            {% assign notes = exc | append: "_notes" %}
+                                                            <td>{{ page[notes] }}</td>
+                                                        </tr>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}

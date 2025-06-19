@@ -301,8 +301,15 @@ printing our webpage */
     border-spacing: 2px;
     -webkit-border-horizontal-spacing: ;
     -webkit-border-vertical-spacing: ;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 430px){
+	  #exerciseTable {
+			    font-size: 10px;
+		}
 }
 
 @media screen and (max-width: 375px){
