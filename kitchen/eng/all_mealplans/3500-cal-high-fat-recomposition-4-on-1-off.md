@@ -1,12 +1,17 @@
 ---
-title: "Approx. 3500 cal training / 3350 cal rest - Eggs or Frittatas, Chicken, Cream of Rice, Turkey & Cottage Cheese"
+title: "Approx. 3435 cal training / 3257 cal rest - Eggs or Frittatas, Chicken, Cream of Rice, Turkey & Cottage Cheese"
 layout: "kitchen_mealplan"
 date: "2026-10-26"
 canonical_url: "{{site.baseurl}}kitchen/eng/all_mealplans/3500-cal-high-fat-recomposition-4-on-1-off/"
 url: "{{site.baseurl}}kitchen/eng/all_mealplans/3500-cal-high-fat-recomposition-4-on-1-off/"
-description: "High-fat, high-protein diet for muscle growth while staying lean, not intentional weight loss. Earlier approximate targets were 3490 calories, 235 g protein, 210 g carbs and 190 g fat on training days; 3350 calories, 235 g protein, 130 g carbs and 210 g fat on rest days. These are planning targets, NOT recalculated nutrition totals following the avocado-by-count, walnut, frittata and Cream of Rice changes. The training schedule is rolling, not tied to weekdays: Days 1-4 train in the evening; Day 5 rest; Days 6-9 train; Day 10 rest; repeat. Days 1-7 of this cycle have six training days and one rest day. The first ten days have eight training days and two rest days. Default breakfasts use eggs with 10 g olive oil; four fully cooked Veggies Made Great Spinach Egg White Frittatas with Mozzarella, purchased at Costco, may replace the eggs, egg whites and spinach, and are reheated without added breakfast olive oil. Default training dinners use ground turkey; cooked salmon may replace the turkey and its dinner olive oil. Grocery totals use default egg breakfasts and turkey dinners; optional swaps are explained in ingredient notes."
+description: "High-fat, high-protein diet for muscle growth while staying lean, not intentional weight loss. Estimated default daily totals: training 3435 kcal, 235.4 g protein, 212.1 g carbohydrates, 191.2 g fat; rest 3257 kcal, 230.3 g protein, 107.5 g carbohydrates, 221.5 g fat. These supplied calculations use standard food-composition assumptions and representative labels, not verified labels for actual purchased products. Each half avocado is assumed to contain 100 g edible flesh; meats, sweet potatoes, and broccoli use cooked weights; mixed vegetables are equal portions of cooked zucchini and bell pepper; all listed olive oil is counted as consumed. Alternatives replace meals rather than add to the daily totals. The training schedule is rolling, not tied to weekdays: Days 1-4 train in the evening; Day 5 rest; Days 6-9 train; Day 10 rest; repeat. Days 1-7 of this cycle have six training days and one rest day. The first ten days have eight training days and two rest days. Default breakfasts use eggs with 10 g olive oil; four fully cooked Veggies Made Great Spinach Egg White Frittatas with Mozzarella, purchased at Costco, may replace the eggs, egg whites and spinach, and are reheated without added breakfast olive oil. Default training dinners use ground turkey; cooked salmon may replace the turkey and its dinner olive oil. Grocery totals use default egg breakfasts and turkey dinners; optional swaps are explained in ingredient notes."
 
 meal1:
+  nutrition:
+    calories: "483"
+    protein: "32.6 g"
+    carbs: "12.5 g"
+    fat: "34.7 g"
   ingredients_markdown: |-
     **Breakfast A - Eggs, Spinach & Avocado (default; every day, 7/7 days, 9:00 AM)**
 
@@ -21,9 +26,13 @@ meal1:
     - Serve with ½ large avocado. Add avocado fresh on the day of eating.
     - Refrigerate early-week cooked portions and freeze later portions promptly.
 
-    Nutrition: The earlier breakfast was estimated at 483 kcal, 33 g protein, 13 g carbs and 35 g fat using 100 g avocado. That estimate is not directly transferable to a ½-avocado serving because actual avocado sizes vary.
 
 meal2:
+  nutrition:
+    calories: "440"
+    protein: "22.0 g"
+    carbs: "28.5 g"
+    fat: "30.7 g"
   ingredients_markdown: |-
     **Breakfast B - Costco Veggies Made Great Spinach Egg White Frittatas with Mozzarella (optional replacement; any day, up to 7/7 days, 9:00 AM)**
 
@@ -40,6 +49,11 @@ meal2:
     For four frittatas only (excluding avocado): 280 kcal; 16 g fat; 20 g carbs; 20 g protein. The meal contains no added breakfast olive oil and is not macro-equivalent to Breakfast A. Brand: Veggies Made Great; retailer: Costco. Nutrition values are those supplied by the user, not independently verified.
 
 meal3:
+  nutrition:
+    calories: "920"
+    protein: "52.9 g"
+    carbs: "19.1 g"
+    fat: "72.4 g"
   ingredients_markdown: |-
     **Lunch - Mediterranean Chicken Thighs (training days, 4 of every 5 days; 12:30 PM)**
 
@@ -56,9 +70,13 @@ meal3:
     - Use the measured olive oil for cooking or dressing.
     - Refrigerate portions for the first three days and freeze later portions.
 
-    Nutrition: Not recalculated after replacing 35 g almonds with 35 g walnuts and increasing the oil and nuts from the earlier cutting version.
 
 meal4:
+  nutrition:
+    calories: "612"
+    protein: "49.9 g"
+    carbs: "16.3 g"
+    fat: "39.3 g"
   ingredients_markdown: |-
     **Lunch - Mediterranean Chicken Thighs (rest day, 1 of every 5 days; 12:30 PM)**
 
@@ -74,6 +92,11 @@ meal4:
     - The additional rest-day avocado, olive oil and walnuts are recorded separately so they are not double-counted.
 
 meal5:
+  nutrition:
+    calories: "366"
+    protein: "29.7 g"
+    carbs: "24.5 g"
+    fat: "18.1 g"
   ingredients_markdown: |-
     **Snack - Greek Yogurt, Walnuts & Raspberries (every day, 7/7 days, 3:30 PM)**
 
@@ -86,9 +109,14 @@ meal5:
     - Add raspberries, walnuts and chia seeds to yogurt.
     - Store walnuts separately until serving if preferred. Softened walnuts can also be used.
 
-    Previously reported nutrition: approximately 366 kcal; 30 g protein; 24 g carbs; 18 g fat.
+
 
 meal6:
+  nutrition:
+    calories: "371"
+    protein: "27.1 g"
+    carbs: "63.3 g"
+    fat: "2.0 g"
   ingredients_markdown: |-
     **Pre-Workout - Cream of Rice, Banana & Whey (training days, 4 of every 5 days; 5:45 PM)**
 
@@ -103,9 +131,14 @@ meal6:
     - Slice banana over the cereal.
     - Eat about 60-90 minutes before evening lifting, as tolerated.
 
-    Previously reported nutrition: approximately 375 kcal; 28 g protein; 61 g carbs; 2 g fat. Water quantity and whey brand were not specified.
+    Water quantity and whey brand were not specified.
 
 meal7:
+  nutrition:
+    calories: "116"
+    protein: "23.2 g"
+    carbs: "2.9 g"
+    fat: "1.5 g"
   ingredients_markdown: |-
     **Protein Shake (rest day, 1 of every 5 days; time flexible)**
 
@@ -118,6 +151,11 @@ meal7:
     - No amount of water was specified.
 
 meal8:
+  nutrition:
+    calories: "824"
+    protein: "59.6 g"
+    carbs: "76.5 g"
+    fat: "32.2 g"
   ingredients_markdown: |-
     **Post-Workout Dinner - Ground Turkey, Sweet Potato & Broccoli (default training dinner, 4 of every 5 days; 8:30 PM)**
 
@@ -132,9 +170,13 @@ meal8:
     - Portion turkey and sweet potatoes by cooked weight; include measured olive oil for cooking or dressing.
     - Freeze later-week portions promptly and reheat cooked leftovers to 165°F.
 
-    Nutrition: Earlier turkey dinner was reported at approximately 704 kcal; 57 g protein; 56 g carbs; 29 g fat with only 200 g cooked sweet potato. The revised 300 g version has not been recalculated.
 
 meal9:
+  nutrition:
+    calories: "752"
+    protein: "55.0 g"
+    carbs: "76.5 g"
+    fat: "26.0 g"
   ingredients_markdown: |-
     **Post-Workout Dinner - Salmon, Sweet Potato & Broccoli (optional alternative on any training day; replaces turkey dinner, not an extra dinner)**
 
@@ -148,9 +190,13 @@ meal9:
     - Omit the 180 g cooked turkey and 10 g dinner olive oil from that day.
     - Weigh salmon and sweet potato cooked. Freeze later portions promptly.
 
-    Nutrition: Earlier salmon dinner was estimated at approximately 662 kcal with 200 g cooked sweet potato. The current 300 g version has not been recalculated. This is optional, so salmon is not included in default grocery totals.
 
 meal10:
+  nutrition:
+    calories: "676"
+    protein: "54.7 g"
+    carbs: "22.3 g"
+    fat: "41.9 g"
   ingredients_markdown: |-
     **Dinner - Turkey, Broccoli & Extra Vegetables (rest day, 1 of every 5 days; about 8:30 PM)**
 
@@ -165,6 +211,11 @@ meal10:
     - Do not include sweet potato on the rest day.
 
 meal11:
+  nutrition:
+    calories: "533"
+    protein: "6.6 g"
+    carbs: "12.6 g"
+    fat: "54.2 g"
   ingredients_markdown: |-
     **Rest-Day Additional Fat Portions (rest day only, 1 of every 5 days; distribute with other meals)**
 
@@ -178,6 +229,11 @@ meal11:
     - No extra nut butter or dark chocolate remains after the final cottage-cheese-and-walnuts substitution.
 
 meal12:
+  nutrition:
+    calories: "472"
+    protein: "33.6 g"
+    carbs: "16.3 g"
+    fat: "31.8 g"
   ingredients_markdown: |-
     **Before Bed - Cottage Cheese & Walnuts (every day, 7/7 days; 10:30 PM)**
 
@@ -188,7 +244,7 @@ meal12:
     - Place cottage cheese in a bowl and add walnuts.
     - Use walnut pieces; soak to soften if desired. No cooking is needed.
 
-    Previously reported nutrition: approximately 467 kcal; 35 g protein; 14 g carbs; 32 g fat.
+
 
     Batch-preparation and food safety:
     - Cook chicken, turkey and vegetables during one main prep session; portion into containers.

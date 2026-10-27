@@ -183,3 +183,20 @@
 .mealplan_ingredients:has(.meal-eaten-checkbox:checked) > :not(:first-child):not(.meal-eaten-toggle) {
     display: none;
 }
+
+.meal-nutrition {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 12px;
+    background: #f5f8f5;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.meal-nutrition span { white-space: nowrap; }
+.meal-nutrition strong { color: #17452c; }
+.mealplan_ingredients .meal-nutrition-note { margin: 6px 0 12px; font-size: 12px; color: #657269; line-height: 1.5; }
+@media (max-width: 480px) {
+    .meal-nutrition { gap: 4px; padding: 10px 6px; font-size: 11px; }
+}

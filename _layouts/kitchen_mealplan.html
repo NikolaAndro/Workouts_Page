@@ -13,7 +13,15 @@ lang: srb
         {% for meal in page %}
             {% if meal[0] contains 'meal' %}
                 <div class="mealplan_ingredients" data-meal-id="{{ meal[0] | escape }}">
-                    {% capture meal_checkbox %}</p><label class="meal-eaten-toggle"><input type="checkbox" class="meal-eaten-checkbox" value="{{ meal[0] | escape }}"> <span>Eaten today</span></label>{% endcapture %}
+                    {% capture meal_checkbox %}</p>
+                    <div class="meal-nutrition" aria-label="Meal nutrition">
+                        <span><strong>{{ meal[1].nutrition.calories | default: '—' }}</strong> kcal</span>
+                        <span><strong>{{ meal[1].nutrition.protein | default: '—' }}</strong> protein</span>
+                        <span><strong>{{ meal[1].nutrition.carbs | default: '—' }}</strong> carbs</span>
+                        <span><strong>{{ meal[1].nutrition.fat | default: '—' }}</strong> fat</span>
+                    </div>
+                    <p class="meal-nutrition-note">{% if meal[1].nutrition %}Estimated nutrition.{% else %}Full meal nutrition not calculated for the current portions.{% endif %}</p>
+                    <label class="meal-eaten-toggle"><input type="checkbox" class="meal-eaten-checkbox" value="{{ meal[0] | escape }}"> <span>Eaten today</span></label>{% endcapture %}
                     {{ meal[1].ingredients_markdown | markdownify | replace_first: '</p>', meal_checkbox }}
                 </div>
             {% endif %}
