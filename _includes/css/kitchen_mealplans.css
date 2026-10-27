@@ -158,3 +158,15 @@
     .grocery-table-scroll { max-width: 1000px; }
     .grocery-table { max-width: none; }
 }
+
+/* Keep checked mobile groceries compact and easy to restore. */
+@media (max-width: 767px) {
+    .grocery-table .grocery-row:has(input:checked) .grocery-amount,
+    .grocery-table .grocery-row:has(input:checked) .grocery-section,
+    .grocery-table .grocery-row:has(input:checked) .grocery-notes {
+        display: none;
+    }
+    .grocery-table .grocery-row:has(input:checked) .grocery-item {
+        margin-bottom: 0;
+    }
+}
