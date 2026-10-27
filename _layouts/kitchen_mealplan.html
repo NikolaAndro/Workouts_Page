@@ -7,12 +7,14 @@ lang: srb
 <br><br>
 <p>{{ page.description }}</p>
 <br><br>
+<p class="meal-tracking-help">Track what you’ve eaten today. Checks are saved on this device and reset each day. Mark only the meals and alternatives you eat.</p>
 <article class="kitchen-post">
     <div class="mealplan-recipe-contents">
         {% for meal in page %}
             {% if meal[0] contains 'meal' %}
-                <div class="mealplan_ingredients">
-                    {{ meal[1].ingredients_markdown | markdownify }}
+                <div class="mealplan_ingredients" data-meal-id="{{ meal[0] | escape }}">
+                    {% capture meal_checkbox %}</p><label class="meal-eaten-toggle"><input type="checkbox" class="meal-eaten-checkbox" value="{{ meal[0] | escape }}"> <span>Eaten today</span></label>{% endcapture %}
+                    {{ meal[1].ingredients_markdown | markdownify | replace_first: '</p>', meal_checkbox }}
                 </div>
             {% endif %}
         {% endfor %}
@@ -68,3 +70,5 @@ lang: srb
   </table>
   </div>
 </section>
+
+<script src="{{ site.baseurl }}js/meal-tracking.js" defer></script>

@@ -170,3 +170,16 @@
         margin-bottom: 0;
     }
 }
+
+.meal-tracking-help { color: #526359; font-size: 14px; line-height: 1.6; }
+.meal-eaten-toggle { display: inline-flex; align-items: center; gap: 10px; padding: 8px 12px; margin: 0 0 16px; border: 1px solid #cfe1d4; border-radius: 6px; cursor: pointer; color: #17452c; font-size: 14px; }
+.meal-eaten-checkbox { width: 22px; height: 22px; margin: 0; accent-color: #28784b; cursor: pointer; }
+.meal-eaten-checkbox:focus-visible { outline: 2px solid #28784b; outline-offset: 4px; }
+.mealplan_ingredients:has(.meal-eaten-checkbox:checked) > p:first-child { background: #d4e9d9; }
+.mealplan_ingredients:has(.meal-eaten-checkbox:checked) > p:first-child strong { text-decoration: line-through; color: #526359; }
+.meal-eaten-toggle:has(input:checked) { background: #e8f3eb; }
+
+/* Keep completed meals compact while leaving the toggle available. */
+.mealplan_ingredients:has(.meal-eaten-checkbox:checked) > :not(:first-child):not(.meal-eaten-toggle) {
+    display: none;
+}
