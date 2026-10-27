@@ -32,16 +32,31 @@ lang: srb
 <section class="grocery-list" aria-labelledby="grocery-heading">
   <h2 id="grocery-heading">Groceries</h2>
   <p class="grocery-help">Check items as you shop. Expand item notes for preparation details and substitutions.</p>
+  {% if page.grocery_quantities %}
+  <form class="grocery-days-form">
+    <label for="grocery-days">Number of days</label>
+    <input id="grocery-days" name="days" type="number" min="1" max="365" step="1" value="7" required aria-describedby="grocery-cycle grocery-days-error">
+    <button type="submit">Update list</button>
+  </form>
+  <p id="grocery-days-error" class="grocery-days-error" role="alert"></p>
+  <p id="grocery-cycle" class="grocery-cycle">Starting at Day 1: 4 training days, then 1 rest day. Default egg breakfasts and turkey dinners.</p>
+  <p class="grocery-days-summary" role="status" aria-live="polite"></p>
+  <noscript><p>Enable JavaScript to calculate groceries for a different number of days. Showing the 7-day list.</p></noscript>
+  {% endif %}
   <div class="grocery-table-scroll" role="region" aria-label="Grocery quantities" tabindex="0">
   <table class="grocery-table" role="table">
-    <caption class="grocery-sr-only">Grocery quantities per day, for 7 days, and for 10 days</caption>
+    <caption class="grocery-sr-only">{% if page.grocery_quantities %}Groceries for 7 days{% else %}Grocery quantities per day, for 7 days, and for 10 days{% endif %}</caption>
     <thead role="rowgroup">
       <tr role="row">
         <th scope="col" role="columnheader" class="grocery-check">In cart</th>
         <th scope="col" role="columnheader">Item</th>
+        {% if page.grocery_quantities %}
+        <th scope="col" role="columnheader" class="grocery-total-heading">Amount for 7 days</th>
+        {% else %}
         <th scope="col" role="columnheader">Daily amount</th>
         <th scope="col" role="columnheader">7 days</th>
         <th scope="col" role="columnheader">10 days</th>
+        {% endif %}
       </tr>
     </thead>
     <tbody role="rowgroup">
@@ -54,7 +69,7 @@ lang: srb
         {% assign section_key = prefix | append: '_store_section' %}
         {% assign notes_key = prefix | append: '_notes' %}
         {% if page[name_key] %}
-        <tr role="row" class="grocery-row">
+        <tr role="row" class="grocery-row" data-food-id="{{ prefix }}">
           <td role="cell" class="grocery-check">
             <input type="checkbox" class="cartCheckbox" id="grocery-{{ number }}" aria-label="{{ page[name_key] | escape }} in cart">
           </td>
@@ -68,9 +83,13 @@ lang: srb
             </details>
             {% endif %}
           </td>
+          {% if page.grocery_quantities %}
+          <td role="cell" class="grocery-amount" data-label="7 days">{{ page[week_key] | escape }}</td>
+          {% else %}
           <td role="cell" class="grocery-amount" data-label="Daily amount">{{ page[amount_key] | escape }}</td>
           <td role="cell" class="grocery-amount" data-label="7 days">{{ page[week_key] | escape }}</td>
           <td role="cell" class="grocery-amount" data-label="10 days">{{ page[ten_key] | escape }}</td>
+          {% endif %}
         </tr>
         {% endif %}
       {% endfor %}
@@ -80,3 +99,8 @@ lang: srb
 </section>
 
 <script src="{{ site.baseurl }}js/meal-tracking.js" defer></script>
+
+{% if page.grocery_quantities %}
+<script id="grocery-quantity-data" type="application/json">{{ page.grocery_quantities | jsonify }}</script>
+<script src="{{ site.baseurl }}js/grocery-days.js" defer></script>
+{% endif %}

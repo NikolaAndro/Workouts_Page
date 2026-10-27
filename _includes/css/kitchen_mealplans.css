@@ -200,3 +200,16 @@
 @media (max-width: 480px) {
     .meal-nutrition { gap: 4px; padding: 10px 6px; font-size: 11px; }
 }
+
+.grocery-days-form { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin: 20px 0 8px; }
+.grocery-days-form label { margin: 0; font-size: 14px; }
+.grocery-days-form input { width: 90px; padding: 8px 10px; border: 1px solid #a9beb0; border-radius: 6px; font-size: 16px; }
+.grocery-days-form button { padding: 9px 16px; border: 0; border-radius: 6px; background: #17452c; color: white; font-size: 14px; }
+.grocery-days-form input:focus-visible, .grocery-days-form button:focus-visible { outline: 2px solid #28784b; outline-offset: 3px; }
+.grocery-cycle, .grocery-days-summary, .grocery-days-error { text-align: center; font-size: 13px; line-height: 1.6; margin: 8px auto 16px; max-width: 800px; }
+.grocery-days-error { color: #a12525; }
+.grocery-days-error:empty { display: none; }
+.grocery-table .grocery-row[hidden] { display: none; }
+@media (min-width: 768px) {
+    .grocery-list:has(.grocery-days-form) .grocery-table th:nth-child(2) { width: 65%; }
+}

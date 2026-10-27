@@ -6,6 +6,101 @@ canonical_url: "{{site.baseurl}}kitchen/eng/all_mealplans/3500-cal-high-fat-reco
 url: "{{site.baseurl}}kitchen/eng/all_mealplans/3500-cal-high-fat-recomposition-4-on-1-off/"
 description: "High-fat, high-protein diet for muscle growth while staying lean, not intentional weight loss. Estimated default daily totals: training 3435 kcal, 235.4 g protein, 212.1 g carbohydrates, 191.2 g fat; rest 3257 kcal, 230.3 g protein, 107.5 g carbohydrates, 221.5 g fat. These supplied calculations use standard food-composition assumptions and representative labels, not verified labels for actual purchased products. Each half avocado is assumed to contain 100 g edible flesh; meats, sweet potatoes, and broccoli use cooked weights; mixed vegetables are equal portions of cooked zucchini and bell pepper; all listed olive oil is counted as consumed. Alternatives replace meals rather than add to the daily totals. The training schedule is rolling, not tied to weekdays: Days 1-4 train in the evening; Day 5 rest; Days 6-9 train; Day 10 rest; repeat. Days 1-7 of this cycle have six training days and one rest day. The first ten days have eight training days and two rest days. Default breakfasts use eggs with 10 g olive oil; four fully cooked Veggies Made Great Spinach Egg White Frittatas with Mozzarella, purchased at Costco, may replace the eggs, egg whites and spinach, and are reheated without added breakfast olive oil. Default training dinners use ground turkey; cooked salmon may replace the turkey and its dinner olive oil. Grocery totals use default egg breakfasts and turkey dinners; optional swaps are explained in ingredient notes."
 
+grocery_quantities:
+  food1:
+    training: 2
+    rest: 2
+    unit: "eggs"
+  food2:
+    training: 150
+    rest: 150
+    unit: "g"
+  food3:
+    training: 60
+    rest: 60
+    unit: "g"
+  food4:
+    training: 0
+    rest: 0
+    unit: "frittatas"
+  food5:
+    training: 0.5
+    rest: 1
+    unit: "avocados"
+  food6:
+    training: 50
+    rest: 60
+    unit: "g"
+  food7:
+    training: 170
+    rest: 170
+    unit: "g cooked"
+  food8:
+    training: 250
+    rest: 250
+    unit: "g roasted"
+  food9:
+    training: 25
+    rest: 25
+    unit: "g"
+  food10:
+    training: 90
+    rest: 100
+    unit: "g"
+  food11:
+    training: 250
+    rest: 250
+    unit: "g"
+  food12:
+    training: 10
+    rest: 10
+    unit: "g"
+  food13:
+    training: 70
+    rest: 70
+    unit: "g"
+  food14:
+    training: 40
+    rest: 0
+    unit: "g dry"
+  food15:
+    training: 1
+    rest: 0
+    unit: "bananas"
+    singular_unit: "banana"
+  food16:
+    training: 30
+    rest: 30
+    unit: "g"
+  food17:
+    training: 180
+    rest: 180
+    unit: "g cooked"
+  food18:
+    training: 0
+    rest: 0
+    unit: "g cooked"
+  food19:
+    training: 300
+    rest: 0
+    unit: "g cooked"
+  food20:
+    training: 200
+    rest: 200
+    unit: "g"
+  food21:
+    training: 0
+    rest: 150
+    unit: "g"
+  food22:
+    training: 250
+    rest: 250
+    unit: "g"
+  food23:
+    training: null
+    rest: null
+    unit: ""
+
 meal1:
   nutrition:
     calories: "483"
@@ -121,7 +216,7 @@ meal6:
     **Pre-Workout - Cream of Rice, Banana & Whey (training days, 4 of every 5 days; 5:45 PM)**
 
     * 40 g Cream of Rice, dry weight
-    * 120 g banana, edible portion
+    * 1 banana
     * 30 g whey protein powder
     * Not specified water
 
@@ -353,11 +448,11 @@ food14_store_section: "Pantry"
 food14_notes: "Dry weight, made with water. Seven days: 6 × 40 g; ten days: 8 × 40 g. Replaces rice cakes. Product described as Cream of Rice, no specific flavor or package size given."
 
 food15_name: "Banana"
-food15_amount: "120 g edible portion (training day); 0 g (rest day)"
-food15_amount_7: "720 g edible portion"
-food15_amount_10: "960 g edible portion"
+food15_amount: "1 banana (training day); none (rest day)"
+food15_amount_7: "6 bananas"
+food15_amount_10: "8 bananas"
 food15_store_section: "Produce"
-food15_notes: "Pre-workout only. Edible weight excludes peel; do not assume number of bananas from weight."
+food15_notes: "One banana per training day; none on rest days. Nutrition estimates assume approximately 120 g edible fruit per banana."
 
 food16_name: "Whey protein powder"
 food16_amount: "30 g (every day)"
