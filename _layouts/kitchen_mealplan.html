@@ -4,15 +4,26 @@ lang: srb
 ---
 
 <h1>{{ page.title }}</h1>
+{% if page.grocery_quantities %}
+<div class="meal-filters" role="group" aria-label="Filter meals and groceries">
+  <button type="button" id="toggle-alternatives" aria-pressed="false"><span class="meal-filter-icon" aria-hidden="true">×</span><span class="meal-filter-label">Hide alternative meals</span></button>
+  <button type="button" id="toggle-rest-meals" aria-pressed="false"><span class="meal-filter-icon" aria-hidden="true">×</span><span class="meal-filter-label">Hide rest-day meals</span></button>
+</div>
+{% endif %}
 <br><br>
-<p>{{ page.description }}</p>
+{% if page.description != blank %}
+<details class="mealplan-description">
+    <summary>Plan details</summary>
+    <p>{{ page.description | escape }}</p>
+</details>
+{% endif %}
 <br><br>
 <p class="meal-tracking-help">Track what you’ve eaten today. Checks are saved on this device and reset each day. Mark only the meals and alternatives you eat.</p>
 <article class="kitchen-post">
     <div class="mealplan-recipe-contents">
         {% for meal in page %}
             {% if meal[0] contains 'meal' %}
-                <div class="mealplan_ingredients" data-meal-id="{{ meal[0] | escape }}">
+                <div class="mealplan_ingredients" data-meal-id="{{ meal[0] | escape }}" data-alternative="{{ meal[1].alternative | default: false }}" data-rest-only="{{ meal[1].rest_only | default: false }}">
                     {% capture meal_checkbox %}</p>
                     <div class="meal-nutrition" aria-label="Meal nutrition">
                         <span><strong>{{ meal[1].nutrition.calories | default: '—' }}</strong> kcal</span>

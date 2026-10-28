@@ -213,3 +213,24 @@
 @media (min-width: 768px) {
     .grocery-list:has(.grocery-days-form) .grocery-table th:nth-child(2) { width: 65%; }
 }
+
+.meal-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 24px auto; }
+.meal-filters button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: 1px solid #edb8b4; border-radius: 6px; background: #fff0ee; color: #933b34; font-size: 14px; line-height: 1.5; cursor: pointer; }
+.meal-filters button[aria-pressed="true"] { border-color: #a9cbb2; background: #e8f3eb; color: #17452c; }
+.meal-filters button:hover { background: #ffe3df; }
+.meal-filters button[aria-pressed="true"]:hover { background: #d8eadc; }
+.meal-filter-icon { font-size: 20px; line-height: 1; }
+.meal-filters button:focus-visible { outline: 2px solid #28784b; outline-offset: 4px; }
+.mealplan-recipe-contents .mealplan_ingredients[hidden] { display: none; }
+
+.mealplan-description {
+    max-width: 960px;
+    margin: 0 auto 24px;
+    padding: 14px 18px;
+    border: 1px solid #cfe1d4;
+    border-radius: 6px;
+    background: #f5faf6;
+}
+.mealplan-description summary { cursor: pointer; color: #17452c; font-weight: 700; }
+.mealplan-description summary:focus-visible { outline: 2px solid #28784b; outline-offset: 4px; }
+.mealplan-description p { margin: 14px 0 0; font-size: 14px; line-height: 1.7; }

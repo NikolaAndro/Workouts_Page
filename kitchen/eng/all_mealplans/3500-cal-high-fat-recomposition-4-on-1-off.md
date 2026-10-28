@@ -20,6 +20,8 @@ grocery_quantities:
     rest: 60
     unit: "g"
   food4:
+    alternative: true
+    optional_amount: "Optional: 4 per breakfast swap"
     training: 0
     rest: 0
     unit: "frittatas"
@@ -77,6 +79,8 @@ grocery_quantities:
     rest: 180
     unit: "g cooked"
   food18:
+    alternative: true
+    optional_amount: "Optional: 200 g cooked per dinner swap"
     training: 0
     rest: 0
     unit: "g cooked"
@@ -123,6 +127,7 @@ meal1:
 
 
 meal2:
+  alternative: true
   nutrition:
     calories: "440"
     protein: "22.0 g"
@@ -167,6 +172,7 @@ meal3:
 
 
 meal4:
+  rest_only: true
   nutrition:
     calories: "612"
     protein: "49.9 g"
@@ -229,6 +235,7 @@ meal6:
     Water quantity and whey brand were not specified.
 
 meal7:
+  rest_only: true
   nutrition:
     calories: "116"
     protein: "23.2 g"
@@ -267,6 +274,7 @@ meal8:
 
 
 meal9:
+  alternative: true
   nutrition:
     calories: "752"
     protein: "55.0 g"
@@ -287,6 +295,7 @@ meal9:
 
 
 meal10:
+  rest_only: true
   nutrition:
     calories: "676"
     protein: "54.7 g"
@@ -306,6 +315,7 @@ meal10:
     - Do not include sweet potato on the rest day.
 
 meal11:
+  rest_only: true
   nutrition:
     calories: "533"
     protein: "6.6 g"
