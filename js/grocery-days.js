@@ -9,6 +9,50 @@
   const heading = document.querySelector('.grocery-total-heading');
   const caption = document.querySelector('.grocery-table caption');
   const rows = [...document.querySelectorAll('.grocery-row')];
+  // Keep refrigerated and frozen sections near the end of the shopping route.
+  const sectionOrder = ['Produce', 'Pantry', 'Supplements', 'Beverages', 'Bakery', 'Meat & Seafood', 'Dairy & Eggs', 'Frozen'];
+  const table = document.querySelector('.grocery-table');
+  const originalBody = table.querySelector('tbody');
+  const grouped = new Map();
+  rows.forEach(row => {
+    const name = row.querySelector('.grocery-section')?.textContent.trim() || 'Other';
+    if (!grouped.has(name)) grouped.set(name, []);
+    grouped.get(name).push(row);
+  });
+  const rank = name => sectionOrder.includes(name) ? sectionOrder.indexOf(name) : sectionOrder.length;
+  const groups = [...grouped.entries()].sort(([a], [b]) => rank(a) - rank(b) || a.localeCompare(b)).map(([name, items]) => {
+    const body = document.createElement('tbody');
+    body.className = 'grocery-section-group';
+    body.setAttribute('role', 'rowgroup');
+    const header = document.createElement('tr');
+    header.className = 'grocery-section-heading';
+    header.setAttribute('role', 'row');
+    const title = document.createElement('th');
+    title.colSpan = table.querySelectorAll('thead th').length;
+    title.scope = 'rowgroup';
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'grocery-section-toggle';
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.setAttribute('aria-controls', items.map(row => {
+      row.id = 'grocery-row-' + row.dataset.foodId;
+      return row.id;
+    }).join(' '));
+    const icon = document.createElement('span');
+    icon.className = 'grocery-section-chevron';
+    icon.setAttribute('aria-hidden', 'true');
+    toggle.append(icon, document.createTextNode(name));
+    toggle.addEventListener('click', () => {
+      const collapsed = body.classList.toggle('is-collapsed');
+      toggle.setAttribute('aria-expanded', String(!collapsed));
+    });
+    title.append(toggle);
+    header.append(title);
+    body.append(header, ...items);
+    table.append(body);
+    return { body, items };
+  });
+  originalBody.remove();
   const alternativeButton = document.getElementById('toggle-alternatives');
   const restButton = document.getElementById('toggle-rest-meals');
   let hideAlternatives = false;
@@ -54,6 +98,7 @@
       const unit = total === 1 && quantity.singular_unit ? quantity.singular_unit : quantity.unit;
       cell.textContent = format.format(total) + ' ' + unit;
     });
+    groups.forEach(({ body, items }) => { body.hidden = items.every(row => row.hidden); });
   };
   alternativeButton.addEventListener('click', () => {
     hideAlternatives = !hideAlternatives;

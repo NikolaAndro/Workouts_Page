@@ -234,3 +234,40 @@
 .mealplan-description summary { cursor: pointer; color: #17452c; font-weight: 700; }
 .mealplan-description summary:focus-visible { outline: 2px solid #28784b; outline-offset: 4px; }
 .mealplan-description p { margin: 14px 0 0; font-size: 14px; line-height: 1.7; }
+
+.grocery-table .grocery-section-heading th {
+    padding: 14px 16px;
+    background: #e8f3eb;
+    color: #17452c;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    border-top: 12px solid white;
+    border-bottom: 1px solid #cfe1d4;
+}
+.grocery-section-group[hidden] { display: none; }
+.grocery-section-group .grocery-section { display: none; }
+@media (max-width: 767px) {
+    .grocery-table .grocery-section-heading { display: block; margin: 8px 0 12px; }
+    .grocery-table .grocery-section-heading th { display: block; border-top: 0; border-radius: 6px; }
+}
+
+.grocery-table .grocery-section-heading th { padding: 0; }
+.grocery-section-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 16px;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+}
+.grocery-section-toggle:hover { background: #d8eadc; }
+.grocery-section-toggle:focus-visible { outline: 2px solid #28784b; outline-offset: -3px; }
+.grocery-section-chevron { width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); flex-shrink: 0; }
+.grocery-section-toggle[aria-expanded="false"] .grocery-section-chevron { transform: rotate(-45deg); }
+.grocery-table .grocery-section-group.is-collapsed .grocery-row { display: none; }
